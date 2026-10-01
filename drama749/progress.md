@@ -1,13 +1,13 @@
 # progress.md
 剧名：《大一实习，你跑去749收容怪物》漫剧 第1集《会流血的石头》
-当前阶段：4已完成（下一步：阶段5 出图提示词，43镜）
+当前阶段：5已完成（下一步：阶段6 动态提示词）
 模式：A（Agnes API：图像 agnes-image-2.5-flash / 视频 agnes-video-2.5-flash keyframe模式）
 API凭据：/home/z/my-project/scripts/agnes_key.txt（BASE: https://apihub.agnes-ai.cn/v1）
 关键经验：Agnes自家图片URL公网直连可用→分镜图URL直接喂视频keyframe模式，无需图床
 画风锁定：韩漫画风，精致写实，华丽光影，高清（9:16，1080×1920）
 主色调：冷蓝青灰夜色 + 红金爆发色（金手指/收容面板/斩击高光）
-阶段记录：0✅ 1✅ 2✅ 3✅ 4✅
-待办：阶段5 逐镜模板C出图提示词43条+评分卡≥90+零漂移审计；完成后整体交付用户过目（交付门）
+阶段记录：0✅ 1✅ 2✅ 3✅ 4✅ 5✅
+待办：阶段6 逐镜模板D动态提示词43条（先读手册04）；阶段7音频方案（手册05）
 
 ## 项目文件夹结构（手册02第5节）
 00_剧集设定/ 改编评估单.md、剧集圣经.md、自审报告
@@ -18,3 +18,10 @@ API凭据：/home/z/my-project/scripts/agnes_key.txt（BASE: https://apihub.agne
 05_动态片段/ 镜001.mp4…
 06_音频/ 配音/音效/BGM
 07_成片/ 第01集.mp4
+
+## API能力确认（阶段5前探测）
+- Agnes /images/generations 支持 image 字段做图生图(公网URL或base64)，HTTP 200闭环验证通过，参考贴合度高
+- /images/edits 503(无可用后端)，弃用；统一走 generations+image
+- 出图链路: 定妆照/场景图(t2i) → 分镜图(i2i挂参考图URL) → 视频(分镜图URL作first_frame)
+- 模板C外貌段采用"身份声明+发型+标志物+服装"简化取用(手册11挂参考图路径)
+- 多角色同框image字段是否收数组→阶段8实测，兜底=主角色挂图+锚点文字锁定
