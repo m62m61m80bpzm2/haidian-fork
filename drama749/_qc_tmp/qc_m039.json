@@ -1,0 +1,28 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "1) **画面是否为发光全息面板设计图(无真人实景)**：是，画面呈现为发光的圆形全息/魔法阵面板设计，无真人实景。\n2) **面板主色调(是否红金)**：是，主色调为红（内部发光核心）与金（外圈边框及符文）。\n3) **面板上文字内容**：文字为类似篆书或古文字的**乱码/无意义符号**。未出现“收容”、“罔象”、“奖励”、“忘形之谓”、“天人合一”等指定字样。\n4) **文字是否有乱码**：是，所有文字均为无法辨识的AI生成的伪汉字/乱码。\n5) **有无其他AI瑕疵**：有，背景存在不自然的黑色曲线（疑似生成错误或残留笔触），且外圈文字排列存在重复与逻辑断裂。",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1790875258,
+  "id": "20261002012048b72293c964ca456e",
+  "model": "glm-5v-turbo",
+  "object": "chat.completion",
+  "request_id": "20261002012048b72293c964ca456e",
+  "usage": {
+    "completion_tokens": 188,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 1445,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 1633
+  }
+}

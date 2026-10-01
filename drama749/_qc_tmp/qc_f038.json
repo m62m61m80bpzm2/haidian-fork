@@ -1,0 +1,28 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "1) 长发；是；是；蓝色。\n2) 更像年轻黑发青年。\n3) 全身覆盖黑毛、长有发光黄眼、戴着白色面具的类人生物，呈蹲坐姿态。\n4) 是。",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1790875907,
+  "id": "2026100201314448f239cca290424d",
+  "model": "glm-5v-turbo",
+  "object": "chat.completion",
+  "request_id": "2026100201314448f239cca290424d",
+  "usage": {
+    "completion_tokens": 54,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 1433,
+    "prompt_tokens_details": {
+      "cached_tokens": 2
+    },
+    "total_tokens": 1487
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "1) **青色**（或青绿色）。\n2) **是**，怪物正从破碎窗户跌出，周围有玻璃碎片和尘土炸开。\n3) **有**，画面右下角有一辆倒地、被砸歪的自行车。\n4) **全景**，展现了街道、建筑和天空的完整环境。\n5) **有**，如自行车轮辐结构略显怪异、部分建筑细节存在轻微逻辑瑕疵。",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1790875839,
+  "id": "20261002013036cd4f1354b3854257",
+  "model": "glm-5v-turbo",
+  "object": "chat.completion",
+  "request_id": "20261002013036cd4f1354b3854257",
+  "usage": {
+    "completion_tokens": 97,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 1419,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 1516
+  }
+}

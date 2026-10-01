@@ -1,0 +1,28 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "1) **半身像**（头部约占画面上半部分，包含肩部及躯干上部）。\n2) **是**（右眼眯起，眉心微蹙）。\n3) **疤痕**（位于左脸颊颧骨处，呈斜向划痕状）。\n4) **是**（右耳佩戴有耳钉）。\n5) **无明显瑕疵**（画面整体逻辑、光影及细节均较为自然）。",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1790875492,
+  "id": "20261002012449499af9a469704a71",
+  "model": "glm-5v-turbo",
+  "object": "chat.completion",
+  "request_id": "20261002012449499af9a469704a71",
+  "usage": {
+    "completion_tokens": 96,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 1432,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 1528
+  }
+}

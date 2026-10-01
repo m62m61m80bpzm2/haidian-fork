@@ -1,0 +1,28 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "1) 是\n2) 否（手指细长但数量和形态基本正常，不算显眼的畸形）\n3) 否（朝画面右前方/巷子深处奔跑）\n4) 是",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1790875561,
+  "id": "20261002012558445a7518888047a4",
+  "model": "glm-5v-turbo",
+  "object": "chat.completion",
+  "request_id": "20261002012558445a7518888047a4",
+  "usage": {
+    "completion_tokens": 41,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 1410,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 1451
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "1) **怪物全身（中景）**。\n2) **是**，斩击弧光横掠胸口，黑毛纷飞。\n3) **有**，手指细长且关节略显畸形扭曲。\n4) **有**，如背景建筑窗户比例/透视略显怪异、部分毛发细节过度重复等。",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1790875862,
+  "id": "2026100201305908d2640b6d3240f2",
+  "model": "glm-5v-turbo",
+  "object": "chat.completion",
+  "request_id": "2026100201305908d2640b6d3240f2",
+  "usage": {
+    "completion_tokens": 70,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 1421,
+    "prompt_tokens_details": {
+      "cached_tokens": 2
+    },
+    "total_tokens": 1491
+  }
+}

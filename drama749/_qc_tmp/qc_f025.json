@@ -1,0 +1,28 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "1) **惊恐**，嘴**张开**。\n2) **是**，正在推窗/探身。\n3) **中景**（人物占比约一半）。\n4) **无明显瑕疵**（手指、面部结构正常）。",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1790875538,
+  "id": "202610020125366dfa02d130494509",
+  "model": "glm-5v-turbo",
+  "object": "chat.completion",
+  "request_id": "202610020125366dfa02d130494509",
+  "usage": {
+    "completion_tokens": 52,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 1420,
+    "prompt_tokens_details": {
+      "cached_tokens": 2
+    },
+    "total_tokens": 1472
+  }
+}

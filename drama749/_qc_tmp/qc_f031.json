@@ -1,0 +1,28 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "1) **有被切断的切口**，且有一段扶手明显**脱落/滑落**（并非完好无损）。\n2) 斩击弧形光效呈**C字形环绕在人物身前及右侧**，横跨楼梯扶手区域。\n3) 外套是**穿成无袖马甲**（非披肩），颜色为**深蓝色/藏青色**。\n4) **有**，主要表现为：扶手切断处的结构逻辑略显生硬、部分墙面剥落纹理存在不自然的重复或融合、人物手部与光效的交互细节稍显模糊。",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1790875816,
+  "id": "202610020130115e18c5e79fd745b6",
+  "model": "glm-5v-turbo",
+  "object": "chat.completion",
+  "request_id": "202610020130115e18c5e79fd745b6",
+  "usage": {
+    "completion_tokens": 130,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 1426,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 1556
+  }
+}

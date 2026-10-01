@@ -1,0 +1,28 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "1) 全身中景\n2) 有\n3) 欧式建筑\n4) 无明显AI瑕疵",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1790875884,
+  "id": "202610020131224d7aa5168b944d73",
+  "model": "glm-5v-turbo",
+  "object": "chat.completion",
+  "request_id": "202610020131224d7aa5168b944d73",
+  "usage": {
+    "completion_tokens": 26,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 1413,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 1439
+  }
+}

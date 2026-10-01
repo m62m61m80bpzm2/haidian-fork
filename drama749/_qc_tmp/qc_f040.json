@@ -1,0 +1,28 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "1) 腰部以上且环境较多(中景)\n2) 是\n3) 是\n4) 是",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1790875928,
+  "id": "20261002013207d7881d63fb7d42da",
+  "model": "glm-5v-turbo",
+  "object": "chat.completion",
+  "request_id": "20261002013207d7881d63fb7d42da",
+  "usage": {
+    "completion_tokens": 26,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 1416,
+    "prompt_tokens_details": {
+      "cached_tokens": 2
+    },
+    "total_tokens": 1442
+  }
+}

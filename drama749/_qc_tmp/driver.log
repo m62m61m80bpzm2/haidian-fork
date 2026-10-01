@@ -1,0 +1,26 @@
+[17:20:28] DONE m038 attempt=1
+[17:20:58] DONE m039 attempt=1
+[17:21:25] DONE m040 attempt=1
+[17:21:55] DONE m041 attempt=1
+[17:22:25] DONE m042 attempt=1
+[17:22:55] DONE m043 attempt=1
+[17:23:15] ALL FINISHED
+[17:24:52] DONE f023 attempt=1
+[17:25:16] DONE f024 attempt=1
+[17:25:38] DONE f025 attempt=1
+[17:26:01] DONE f026 attempt=1
+[17:26:27] DONE f028 attempt=1
+[17:26:51] DONE f029 attempt=1
+[17:27:11] RETRY f030 attempt=1 err=      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1068:23)  ❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"} 
+[17:28:11] RETRY f030 attempt=2 err=      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1068:23)  ❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"} 
+[17:29:11] RETRY f030 attempt=3 err=      at async main (/home/z/.bun/install/global/node_modules/z-ai-web-dev-sdk/dist/cli.js:1068:23)  ❌ Error: API request failed with status 429: {"error":"Too many requests, please try again later"} 
+[17:30:11] FAILED f030
+[17:30:16] DONE f031 attempt=1
+[17:30:39] DONE f034 attempt=1
+[17:31:02] DONE f036 attempt=1
+[17:31:24] DONE f037 attempt=1
+[17:31:47] DONE f038 attempt=1
+[17:32:08] DONE f040 attempt=1
+[17:32:30] DONE f042 attempt=1
+[17:32:52] DONE f043 attempt=1
+[17:33:12] ALL FINISHED

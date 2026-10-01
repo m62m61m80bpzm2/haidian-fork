@@ -1,0 +1,28 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "1) **俯拍**（从上往下看，能看到楼梯的纵深）。\n2) **是**（画面中可见多层楼梯及不同位置的灯光亮起）。\n3) **在画面中上部/楼梯转角平台处**，**没有**明显爬楼动作（呈站立姿态）。\n4) **有**（如墙皮剥落的纹理略显生硬、光影逻辑稍显违和等典型AI特征）。",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1790875611,
+  "id": "20261002012647880ae0c73e964107",
+  "model": "glm-5v-turbo",
+  "object": "chat.completion",
+  "request_id": "20261002012647880ae0c73e964107",
+  "usage": {
+    "completion_tokens": 93,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 1423,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 1516
+  }
+}

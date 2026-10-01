@@ -1,0 +1,28 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "1) **中近景**。人物全身入镜，但楼道环境（墙壁、楼梯、背景）占据了画面绝大部分空间，属于环境叙事感强的中景构图。\n2) **否，不止一处光源亮着**。画面中至少有三处顶灯/声控灯是亮着的（头顶主灯、后方楼梯间顶灯、右下方墙面处的灯光）。\n3) **疑似AI生成的“光晕”或“法阵”特效**。这在现实物理中极不合理（地面凭空发光），是典型的AI绘图在处理光影或提示词时的逻辑错误或刻意添加的奇幻元素。\n4) **有**。除了上述不合理的脚底发光外，墙面的剥落纹理、电线的走向以及部分阴影的过渡都带有明显的AI生成痕迹（如纹理的重复感、光影逻辑的不自然）。",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1790875587,
+  "id": "202610020126213c8ccfb846af4a36",
+  "model": "glm-5v-turbo",
+  "object": "chat.completion",
+  "request_id": "202610020126213c8ccfb846af4a36",
+  "usage": {
+    "completion_tokens": 180,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 1423,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 1603
+  }
+}

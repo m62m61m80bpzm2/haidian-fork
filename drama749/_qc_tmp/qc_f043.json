@@ -1,0 +1,28 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "1) 正常受光，可见面部细节。\n2) 是，仰头且嘴角上扬（冷笑/自信状）。\n3) 无，画面中没有任何字幕或文字。\n4) 画面右下角。",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1790875972,
+  "id": "20261002013250490633965d5145b1",
+  "model": "glm-5v-turbo",
+  "object": "chat.completion",
+  "request_id": "20261002013250490633965d5145b1",
+  "usage": {
+    "completion_tokens": 49,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 1427,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 1476
+  }
+}

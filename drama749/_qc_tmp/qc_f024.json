@@ -1,0 +1,28 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "1) **占比大，半身/近全身**（画面主要被怪物占据，可见头部至躯干及部分手臂）。\n2) **是**。\n3) **是**。\n4) **否**（正对镜头平视或微俯视）。\n5) **无明显瑕疵**（画面结构、毛发和背景逻辑均较合理）。",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1790875516,
+  "id": "202610020125129465f6d0d7bb4cf7",
+  "model": "glm-5v-turbo",
+  "object": "chat.completion",
+  "request_id": "202610020125129465f6d0d7bb4cf7",
+  "usage": {
+    "completion_tokens": 77,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 1409,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 1486
+  }
+}
