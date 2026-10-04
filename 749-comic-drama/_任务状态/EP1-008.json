@@ -1,0 +1,96 @@
+{
+ "id": "EP1-008",
+ "model": "agnes-video-v2.0",
+ "lane": "v20",
+ "video_id": "video_bGl0ZWxsbTpjdXN0b21fbGxtX3Byb3ZpZGVyOm9wZW5haTttb2RlbF9pZDphZ25lcy12aWRlby12Mi4wO3ZpZGVvX2lkOnZpZGVvXzM0NzUzNjNmMTY0NDQ1YmRiNGY0MjQxZmJmZjgzYzhm",
+ "created_at": 1791085020180,
+ "status": "submitted",
+ "polls": [
+  {
+   "at": 1791085020717,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791085036608,
+   "status": "?",
+   "progress": null
+  },
+  {
+   "at": 1791085057893,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791085117906,
+   "status": "completed",
+   "progress": 100
+  }
+ ],
+ "url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-v2.0/video_3475363f164445bdb4f4241fbff83c8f.mp4",
+ "latest": {
+  "completed_at": 1791085097,
+  "created_at": 1791085017,
+  "error": null,
+  "expires_at": null,
+  "id": "video_3475363f164445bdb4f4241fbff83c8f",
+  "input_image_filename": "video_3475363f164445bdb4f4241fbff83c8f.png",
+  "internal_progress": 100,
+  "internal_status": "completed",
+  "object": "video",
+  "perf_download_bytes": 1396341,
+  "perf_download_s": 2.8109055832028,
+  "perf_infer_s": 75.069912983105,
+  "perf_infer_t0": 14068061.139745,
+  "perf_output_size": 1655340,
+  "perf_params": {
+   "frame_rate": 24,
+   "height": 832,
+   "num_frames": 121,
+   "num_inference_steps": 8,
+   "seed": 43651,
+   "width": 1088
+  },
+  "perf_upload_s": 2.4570167716593,
+  "progress": 100,
+  "prompt_id": "5a180627-fb5a-4030-a203-e00b435a646b",
+  "remixed_from_video_id": null,
+  "request_params": {
+   "background_image": null,
+   "frame_rate": 24,
+   "global_prompt": "",
+   "height": 832,
+   "image": "https://platform-outputs.agnes-ai.space/images/t2i/task_KfOJ0iRxBXEjqdY5A1v9RxHIaoCWdueM/output_a7d5e48c4b104122aa204ebf67851bbe.png",
+   "image_list": [
+    "https://platform-outputs.agnes-ai.space/images/t2i/task_KfOJ0iRxBXEjqdY5A1v9RxHIaoCWdueM/output_a7d5e48c4b104122aa204ebf67851bbe.png"
+   ],
+   "local_prompts": "",
+   "max_length": 256,
+   "mode": "ti2vid",
+   "negative_prompt": "pc game, console game, video game, cartoon, childish, ugly, worst quality, blurry, jittery, distorted, inconsistent appearance",
+   "num_frames": 121,
+   "num_inference_steps_first_stage": null,
+   "prompt": "韩漫画风视频。@首帧 画面与首帧保持一致：特写石球表面，横向裂纹缓缓裂开，一双紧闭的石质眼睑猛然睁开，竖瞳黄眼骤然亮起，黄光自眼眶深处涌出照亮周围石纹。人群惊呼：「妖怪啊！！」镜头急推至石眼大特写，睁开瞬间画面轻微震动。环境音：石裂闷响、人群炸开的惊呼与四散脚步。动作幅度中等，保持画面与首帧一致。",
+   "ratio": "4:3",
+   "resolution": "720p",
+   "seed": 43651,
+   "width": 1088
+  },
+  "seconds": "5.0",
+  "size": "1088x832",
+  "size_mapping": {
+   "adjusted": true,
+   "height": 832,
+   "message": "Input size 1152x768 was mapped to nearest preset 720p/4:3 (1088x832)",
+   "ratio": "4:3",
+   "requested_height": 768,
+   "requested_width": 1152,
+   "resolution": "720p",
+   "width": 1088
+  },
+  "status": "completed",
+  "url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-v2.0/video_3475363f164445bdb4f4241fbff83c8f.mp4"
+ },
+ "verdict": "OK-LANDSCAPE",
+ "verdictNote": "1088x832 剪辑垫底"
+}

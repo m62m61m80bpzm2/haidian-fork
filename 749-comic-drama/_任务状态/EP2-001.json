@@ -1,0 +1,91 @@
+{
+ "id": "EP2-001",
+ "model": "agnes-video-v2.0",
+ "lane": "v20",
+ "video_id": "video_bGl0ZWxsbTpjdXN0b21fbGxtX3Byb3ZpZGVyOm9wZW5haTttb2RlbF9pZDphZ25lcy12aWRlby12Mi4wO3ZpZGVvX2lkOnZpZGVvXzQ4N2RlM2ZlZDRhOTQyY2NiMGU0OWM5ZDJlNDBjNGJj",
+ "created_at": 1791088101785,
+ "status": "submitted",
+ "polls": [
+  {
+   "at": 1791088139270,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791088195167,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791088211159,
+   "status": "completed",
+   "progress": 100
+  }
+ ],
+ "url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-v2.0/video_487de3fed4a942ccb0e49c9d2e40c4bc.mp4",
+ "latest": {
+  "completed_at": 1791088200,
+  "created_at": 1791088099,
+  "error": null,
+  "expires_at": null,
+  "id": "video_487de3fed4a942ccb0e49c9d2e40c4bc",
+  "input_image_filename": "video_487de3fed4a942ccb0e49c9d2e40c4bc.png",
+  "internal_progress": 100,
+  "internal_status": "completed",
+  "object": "video",
+  "perf_download_bytes": 1404885,
+  "perf_download_s": 2.542076099664,
+  "perf_infer_s": 96.432753577828,
+  "perf_infer_t0": 13736473.181566,
+  "perf_output_size": 1490857,
+  "perf_params": {
+   "frame_rate": 24,
+   "height": 832,
+   "num_frames": 121,
+   "num_inference_steps": 8,
+   "seed": 81359,
+   "width": 1088
+  },
+  "perf_upload_s": 2.3598990086466,
+  "progress": 100,
+  "prompt_id": "b99d1c7b-9e7c-4053-a407-fa7256d111d7",
+  "remixed_from_video_id": null,
+  "request_params": {
+   "background_image": null,
+   "frame_rate": 24,
+   "global_prompt": "",
+   "height": 832,
+   "image": "https://platform-outputs.agnes-ai.space/images/t2i/task_Sw15AGGMzGDO24TPQVGW0ReBDMgv3vtv/output_bc55a4014de2435782b3d81f9d76dba8.png",
+   "image_list": [
+    "https://platform-outputs.agnes-ai.space/images/t2i/task_Sw15AGGMzGDO24TPQVGW0ReBDMgv3vtv/output_bc55a4014de2435782b3d81f9d76dba8.png"
+   ],
+   "local_prompts": "",
+   "max_length": 256,
+   "mode": "ti2vid",
+   "negative_prompt": "pc game, console game, video game, cartoon, childish, ugly, worst quality, blurry, jittery, distorted, inconsistent appearance",
+   "num_frames": 121,
+   "num_inference_steps_first_stage": null,
+   "prompt": "韩漫画风视频。@首帧 画面与首帧保持一致：雨丝斜织落在积水里砸出涟漪，巷口路灯忽明忽暗，水塘方向雾气缓缓翻涌漫向巷道。环境音：雨声连绵、远处犬吠、路灯电流嘶声。动作幅度小，保持画面与首帧一致。",
+   "ratio": "4:3",
+   "resolution": "720p",
+   "seed": 81359,
+   "width": 1088
+  },
+  "seconds": "5.0",
+  "size": "1088x832",
+  "size_mapping": {
+   "adjusted": true,
+   "height": 832,
+   "message": "Input size 1152x768 was mapped to nearest preset 720p/4:3 (1088x832)",
+   "ratio": "4:3",
+   "requested_height": 768,
+   "requested_width": 1152,
+   "resolution": "720p",
+   "width": 1088
+  },
+  "status": "completed",
+  "url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-v2.0/video_487de3fed4a942ccb0e49c9d2e40c4bc.mp4"
+ },
+ "verdict": "OK-LANDSCAPE",
+ "verdictNote": "1088x832 剪辑垫底"
+}

@@ -1,0 +1,101 @@
+{
+ "id": "EP1-009",
+ "model": "agnes-video-v2.0",
+ "lane": "v20",
+ "video_id": "video_bGl0ZWxsbTpjdXN0b21fbGxtX3Byb3ZpZGVyOm9wZW5haTttb2RlbF9pZDphZ25lcy12aWRlby12Mi4wO3ZpZGVvX2lkOnZpZGVvX2U4OWY3YTczY2U3MjQwZGQ5NDYzN2Y5Zjc3ZmRjYTM4",
+ "created_at": 1791085175766,
+ "status": "submitted",
+ "polls": [
+  {
+   "at": 1791085175883,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791085231580,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791085247288,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791085263019,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791085323018,
+   "status": "completed",
+   "progress": 100
+  }
+ ],
+ "url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-v2.0/video_e89f7a73ce7240dd94637f9f77fdca38.mp4",
+ "latest": {
+  "completed_at": 1791085293,
+  "created_at": 1791085173,
+  "error": null,
+  "expires_at": null,
+  "id": "video_e89f7a73ce7240dd94637f9f77fdca38",
+  "input_image_filename": "video_e89f7a73ce7240dd94637f9f77fdca38.png",
+  "internal_progress": 100,
+  "internal_status": "completed",
+  "object": "video",
+  "perf_download_bytes": 1247407,
+  "perf_download_s": 1.7847175039351,
+  "perf_infer_s": 115.70966231264,
+  "perf_infer_t0": 14068216.691269,
+  "perf_output_size": 2957558,
+  "perf_params": {
+   "frame_rate": 24,
+   "height": 832,
+   "num_frames": 121,
+   "num_inference_steps": 8,
+   "seed": 546054,
+   "width": 1088
+  },
+  "perf_upload_s": 2.6330835465342,
+  "progress": 100,
+  "prompt_id": "9480efa1-edf8-4e46-b503-13abbf6045a9",
+  "remixed_from_video_id": null,
+  "request_params": {
+   "background_image": null,
+   "frame_rate": 24,
+   "global_prompt": "",
+   "height": 832,
+   "image": "https://platform-outputs.agnes-ai.space/images/t2i/task_v3W14ymHhRgXaYEY3TZkcsZ8F5ohQ4U5/output_5c91a87868bc467984a45fa5f74702b4.png",
+   "image_list": [
+    "https://platform-outputs.agnes-ai.space/images/t2i/task_v3W14ymHhRgXaYEY3TZkcsZ8F5ohQ4U5/output_5c91a87868bc467984a45fa5f74702b4.png"
+   ],
+   "local_prompts": "",
+   "max_length": 256,
+   "mode": "ti2vid",
+   "negative_prompt": "pc game, console game, video game, cartoon, childish, ugly, worst quality, blurry, jittery, distorted, inconsistent appearance",
+   "num_frames": 121,
+   "num_inference_steps_first_stage": null,
+   "prompt": "韩漫画风视频。@首帧 画面与首帧保持一致：人群惊恐四散奔逃，有人跌倒爬起，安全帽滚落，探照灯被撞得摇晃，影子在红光中疯狂摆动。对白：老周：「跑！！都往门口跑！！」环境音：嘈杂尖叫、脚步杂沓、金属翻倒哐当。动作幅度大，保持画面与首帧一致。",
+   "ratio": "4:3",
+   "resolution": "720p",
+   "seed": 546054,
+   "width": 1088
+  },
+  "seconds": "5.0",
+  "size": "1088x832",
+  "size_mapping": {
+   "adjusted": true,
+   "height": 832,
+   "message": "Input size 1152x768 was mapped to nearest preset 720p/4:3 (1088x832)",
+   "ratio": "4:3",
+   "requested_height": 768,
+   "requested_width": 1152,
+   "resolution": "720p",
+   "width": 1088
+  },
+  "status": "completed",
+  "url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-v2.0/video_e89f7a73ce7240dd94637f9f77fdca38.mp4"
+ },
+ "verdict": "OK-LANDSCAPE",
+ "verdictNote": "1088x832 剪辑垫底"
+}

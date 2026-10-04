@@ -1,0 +1,111 @@
+{
+ "id": "EP2-005",
+ "model": "agnes-video-v2.0",
+ "lane": "v20",
+ "video_id": "video_bGl0ZWxsbTpjdXN0b21fbGxtX3Byb3ZpZGVyOm9wZW5haTttb2RlbF9pZDphZ25lcy12aWRlby12Mi4wO3ZpZGVvX2lkOnZpZGVvXzQ1MDljZDgzYTFlNzRlYzY4ODdlNWY5NjI3ZDU5ZDQ1",
+ "created_at": 1791088843521,
+ "status": "submitted",
+ "polls": [
+  {
+   "at": 1791088843642,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791088882695,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791088899334,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791088915115,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791088930875,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791088938402,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791088986862,
+   "status": "completed",
+   "progress": 100
+  }
+ ],
+ "url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-v2.0/video_4509cd83a1e74ec6887e5f9627d59d45.mp4",
+ "latest": {
+  "completed_at": 1791088970,
+  "created_at": 1791088840,
+  "error": null,
+  "expires_at": null,
+  "id": "video_4509cd83a1e74ec6887e5f9627d59d45",
+  "input_image_filename": "video_4509cd83a1e74ec6887e5f9627d59d45.png",
+  "internal_progress": 100,
+  "internal_status": "completed",
+  "object": "video",
+  "perf_download_bytes": 971183,
+  "perf_download_s": 2.7388516589999,
+  "perf_infer_s": 124.94035629742,
+  "perf_infer_t0": 13555772.860256,
+  "perf_output_size": 818774,
+  "perf_params": {
+   "frame_rate": 24,
+   "height": 832,
+   "num_frames": 121,
+   "num_inference_steps": 8,
+   "seed": 240773,
+   "width": 1088
+  },
+  "perf_upload_s": 2.183622200042,
+  "progress": 100,
+  "prompt_id": "cbd69032-57f6-4e20-8891-3ddf4d08d12d",
+  "remixed_from_video_id": null,
+  "request_params": {
+   "background_image": null,
+   "frame_rate": 24,
+   "global_prompt": "",
+   "height": 832,
+   "image": "https://platform-outputs.agnes-ai.space/images/t2i/task_Xi31RrRPsK6I01OrBeyP4S2FwUeJ2AIB/output_60ff247bee0f42b29315c64958679e6e.png",
+   "image_list": [
+    "https://platform-outputs.agnes-ai.space/images/t2i/task_Xi31RrRPsK6I01OrBeyP4S2FwUeJ2AIB/output_60ff247bee0f42b29315c64958679e6e.png"
+   ],
+   "local_prompts": "",
+   "max_length": 256,
+   "mode": "ti2vid",
+   "negative_prompt": "pc game, console game, video game, cartoon, childish, ugly, worst quality, blurry, jittery, distorted, inconsistent appearance",
+   "num_frames": 121,
+   "num_inference_steps_first_stage": null,
+   "prompt": "韩漫画风视频。@首帧 画面与首帧保持一致：少年陆鼎蹲在塘边，手电光柱缓缓扫过水面，忽然水面下黑影骤停，青铜小秤在他掌心微微发烫震颤。对白：陆鼎（低声）：「秤在抖……东西要上来了。」环境音：手电咔哒、水滴声、心跳渐强。动作幅度小，保持画面与首帧一致。",
+   "ratio": "4:3",
+   "resolution": "720p",
+   "seed": 240773,
+   "width": 1088
+  },
+  "seconds": "5.0",
+  "size": "1088x832",
+  "size_mapping": {
+   "adjusted": true,
+   "height": 832,
+   "message": "Input size 1152x768 was mapped to nearest preset 720p/4:3 (1088x832)",
+   "ratio": "4:3",
+   "requested_height": 768,
+   "requested_width": 1152,
+   "resolution": "720p",
+   "width": 1088
+  },
+  "status": "completed",
+  "url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-v2.0/video_4509cd83a1e74ec6887e5f9627d59d45.mp4"
+ },
+ "verdict": "OK-LANDSCAPE",
+ "verdictNote": "1088x832 剪辑垫底"
+}

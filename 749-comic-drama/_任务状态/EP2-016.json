@@ -1,0 +1,101 @@
+{
+ "id": "EP2-016",
+ "model": "agnes-video-v2.0",
+ "lane": "v20",
+ "video_id": "video_bGl0ZWxsbTpjdXN0b21fbGxtX3Byb3ZpZGVyOm9wZW5haTttb2RlbF9pZDphZ25lcy12aWRlby12Mi4wO3ZpZGVvX2lkOnZpZGVvXzcxYTgwYjEzMWJkMzQ4YmFhNTAzZGExOTE0Zjk3Nzll",
+ "created_at": 1791090912555,
+ "status": "submitted",
+ "polls": [
+  {
+   "at": 1791090943072,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791090944818,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791090965047,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791090980718,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791091002592,
+   "status": "completed",
+   "progress": 100
+  }
+ ],
+ "url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-v2.0/video_71a80b131bd348baa503da1914f9779e.mp4",
+ "latest": {
+  "completed_at": 1791090993,
+  "created_at": 1791090906,
+  "error": null,
+  "expires_at": null,
+  "id": "video_71a80b131bd348baa503da1914f9779e",
+  "input_image_filename": "video_71a80b131bd348baa503da1914f9779e.png",
+  "internal_progress": 100,
+  "internal_status": "completed",
+  "object": "video",
+  "perf_download_bytes": 998984,
+  "perf_download_s": 2.5164598189294,
+  "perf_infer_s": 81.706278612837,
+  "perf_infer_t0": 13539710.187281,
+  "perf_output_size": 1449386,
+  "perf_params": {
+   "frame_rate": 24,
+   "height": 832,
+   "num_frames": 121,
+   "num_inference_steps": 8,
+   "seed": 295553,
+   "width": 1088
+  },
+  "perf_upload_s": 2.253857428208,
+  "progress": 100,
+  "prompt_id": "d104b828-fe73-43ad-8e24-6f6c45e6860b",
+  "remixed_from_video_id": null,
+  "request_params": {
+   "background_image": null,
+   "frame_rate": 24,
+   "global_prompt": "",
+   "height": 832,
+   "image": "https://platform-outputs.agnes-ai.space/images/t2i/task_uKF1tTXa8RuMezvzkn6o8ObTj5ImfiYJ/output_ae8887651cf6480cb10909f749cbb055.png",
+   "image_list": [
+    "https://platform-outputs.agnes-ai.space/images/t2i/task_uKF1tTXa8RuMezvzkn6o8ObTj5ImfiYJ/output_ae8887651cf6480cb10909f749cbb055.png"
+   ],
+   "local_prompts": "",
+   "max_length": 256,
+   "mode": "ti2vid",
+   "negative_prompt": "pc game, console game, video game, cartoon, childish, ugly, worst quality, blurry, jittery, distorted, inconsistent appearance",
+   "num_frames": 121,
+   "num_inference_steps_first_stage": null,
+   "prompt": "韩漫画风视频。@首帧 画面与首帧保持一致：女探员沈青梧缓步走近鼓掌，从风衣内袋取出黑色证件递向镜头方向，晨风吹动她马尾。对白：沈青梧：「S级波动源头，单挑B级罔象，还知道封印归位——欢迎来到749的视野里，陆鼎同学。」环境音：脚步踏泥、晨风、车窗升落。动作幅度中等，保持画面与首帧一致。",
+   "ratio": "4:3",
+   "resolution": "720p",
+   "seed": 295553,
+   "width": 1088
+  },
+  "seconds": "5.0",
+  "size": "1088x832",
+  "size_mapping": {
+   "adjusted": true,
+   "height": 832,
+   "message": "Input size 1152x768 was mapped to nearest preset 720p/4:3 (1088x832)",
+   "ratio": "4:3",
+   "requested_height": 768,
+   "requested_width": 1152,
+   "resolution": "720p",
+   "width": 1088
+  },
+  "status": "completed",
+  "url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-v2.0/video_71a80b131bd348baa503da1914f9779e.mp4"
+ },
+ "verdict": "OK-LANDSCAPE",
+ "verdictNote": "1088x832 剪辑垫底"
+}

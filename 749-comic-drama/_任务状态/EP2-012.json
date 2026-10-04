@@ -1,0 +1,106 @@
+{
+ "id": "EP2-012",
+ "model": "agnes-video-v2.0",
+ "lane": "v20",
+ "video_id": "video_bGl0ZWxsbTpjdXN0b21fbGxtX3Byb3ZpZGVyOm9wZW5haTttb2RlbF9pZDphZ25lcy12aWRlby12Mi4wO3ZpZGVvX2lkOnZpZGVvXzg3ZDgyNDk1ZWI2MzQ4M2I4MWMwM2Y3MDM5NGYwNzBm",
+ "created_at": 1791090016904,
+ "status": "submitted",
+ "polls": [
+  {
+   "at": 1791090054587,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791090063221,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791090078982,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791090094706,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791090110334,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791090150683,
+   "status": "completed",
+   "progress": 100
+  }
+ ],
+ "url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-v2.0/video_87d82495eb63483b81c03f70394f070f.mp4",
+ "latest": {
+  "completed_at": 1791090111,
+  "created_at": 1791090014,
+  "error": null,
+  "expires_at": null,
+  "id": "video_87d82495eb63483b81c03f70394f070f",
+  "input_image_filename": "video_87d82495eb63483b81c03f70394f070f.png",
+  "internal_progress": 100,
+  "internal_status": "completed",
+  "object": "video",
+  "perf_download_bytes": 1310537,
+  "perf_download_s": 2.3426765780896,
+  "perf_infer_s": 92.014603959396,
+  "perf_infer_t0": 14073056.831758,
+  "perf_output_size": 2597317,
+  "perf_params": {
+   "frame_rate": 24,
+   "height": 832,
+   "num_frames": 121,
+   "num_inference_steps": 8,
+   "seed": 690548,
+   "width": 1088
+  },
+  "perf_upload_s": 3.1244979687035,
+  "progress": 100,
+  "prompt_id": "b3138117-a105-48c1-98ab-276805b248d5",
+  "remixed_from_video_id": null,
+  "request_params": {
+   "background_image": null,
+   "frame_rate": 24,
+   "global_prompt": "",
+   "height": 832,
+   "image": "https://platform-outputs.agnes-ai.space/images/t2i/task_kM4qSHumeV86JMqwz2cAVsvH7cYMqfAu/output_c0ec8c566cdd435090fe469a1332d02a.png",
+   "image_list": [
+    "https://platform-outputs.agnes-ai.space/images/t2i/task_kM4qSHumeV86JMqwz2cAVsvH7cYMqfAu/output_c0ec8c566cdd435090fe469a1332d02a.png"
+   ],
+   "local_prompts": "",
+   "max_length": 256,
+   "mode": "ti2vid",
+   "negative_prompt": "pc game, console game, video game, cartoon, childish, ugly, worst quality, blurry, jittery, distorted, inconsistent appearance",
+   "num_frames": 121,
+   "num_inference_steps_first_stage": null,
+   "prompt": "韩漫画风视频。@首帧 画面与首帧保持一致：少年陆鼎水下睁眼，金色涟漪猛然扩散成环，他缓缓握紧青铜秤，周围水体的浑浊被金光涤清。对白：陆鼎（水下低喝）：「天地为盘，万物为货——今夜，称你。」环境音：金鸣清越、水体震荡、万籁归寂。动作幅度中等，保持画面与首帧一致。",
+   "ratio": "4:3",
+   "resolution": "720p",
+   "seed": 690548,
+   "width": 1088
+  },
+  "seconds": "5.0",
+  "size": "1088x832",
+  "size_mapping": {
+   "adjusted": true,
+   "height": 832,
+   "message": "Input size 1152x768 was mapped to nearest preset 720p/4:3 (1088x832)",
+   "ratio": "4:3",
+   "requested_height": 768,
+   "requested_width": 1152,
+   "resolution": "720p",
+   "width": 1088
+  },
+  "status": "completed",
+  "url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-v2.0/video_87d82495eb63483b81c03f70394f070f.mp4"
+ },
+ "verdict": "OK-LANDSCAPE",
+ "verdictNote": "1088x832 剪辑垫底"
+}

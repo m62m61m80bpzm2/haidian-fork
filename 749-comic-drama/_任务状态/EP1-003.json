@@ -1,0 +1,119 @@
+{
+ "id": "EP1-003",
+ "model": "agnes-video-2.5-flash",
+ "lane": "flash",
+ "video_id": "task_iokxPeq9Ul1g86GxeMEUmvzyqtmucqCX",
+ "created_at": 1791084380384,
+ "status": "submitted",
+ "polls": [
+  {
+   "at": 1791084385645,
+   "status": "pending",
+   "progress": 0
+  },
+  {
+   "at": 1791084449020,
+   "status": "pending",
+   "progress": 0
+  },
+  {
+   "at": 1791084464902,
+   "status": "pending",
+   "progress": 0
+  },
+  {
+   "at": 1791084480850,
+   "status": "pending",
+   "progress": 0
+  },
+  {
+   "at": 1791084496803,
+   "status": "pending",
+   "progress": 0
+  },
+  {
+   "at": 1791084512734,
+   "status": "pending",
+   "progress": 0
+  },
+  {
+   "at": 1791084539773,
+   "status": "pending",
+   "progress": 0
+  },
+  {
+   "at": 1791084555721,
+   "status": "pending",
+   "progress": 0
+  },
+  {
+   "at": 1791084571697,
+   "status": "pending",
+   "progress": 0
+  },
+  {
+   "at": 1791084587654,
+   "status": "pending",
+   "progress": 0
+  },
+  {
+   "at": 1791084603617,
+   "status": "in_progress",
+   "progress": 10
+  },
+  {
+   "at": 1791084619558,
+   "status": "in_progress",
+   "progress": 10
+  },
+  {
+   "at": 1791084635504,
+   "status": "in_progress",
+   "progress": 10
+  },
+  {
+   "at": 1791084655151,
+   "status": "in_progress",
+   "progress": 10
+  },
+  {
+   "at": 1791084671030,
+   "status": "in_progress",
+   "progress": 10
+  },
+  {
+   "at": 1791084686984,
+   "status": "in_progress",
+   "progress": 10
+  },
+  {
+   "at": 1791084702945,
+   "status": "in_progress",
+   "progress": 10
+  },
+  {
+   "at": 1791084719148,
+   "status": "completed",
+   "progress": 100
+  }
+ ],
+ "url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_iokxPeq9Ul1g86GxeMEUmvzyqtmucqCX.mp4",
+ "latest": {
+  "completed_at": 1791084717,
+  "created_at": 1791084380,
+  "error": null,
+  "expires_at": null,
+  "id": "task_iokxPeq9Ul1g86GxeMEUmvzyqtmucqCX",
+  "internal_progress": 0,
+  "internal_status": "pending",
+  "object": "video",
+  "progress": 100,
+  "quality": "standard",
+  "remixed_from_video_id": null,
+  "seconds": "4",
+  "size": "720P",
+  "started_at": 1791084588,
+  "status": "completed",
+  "url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_iokxPeq9Ul1g86GxeMEUmvzyqtmucqCX.mp4"
+ }
+}

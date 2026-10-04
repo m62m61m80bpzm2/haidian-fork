@@ -1,0 +1,91 @@
+{
+ "id": "EP1-014",
+ "model": "agnes-video-v2.0",
+ "lane": "v20",
+ "video_id": "video_bGl0ZWxsbTpjdXN0b21fbGxtX3Byb3ZpZGVyOm9wZW5haTttb2RlbF9pZDphZ25lcy12aWRlby12Mi4wO3ZpZGVvX2lkOnZpZGVvX2Y4ZjAwYzA2YTIwMjQ1Njk4ZTg0OTk2NjkxNmZmNDQy",
+ "created_at": 1791086098279,
+ "status": "submitted",
+ "polls": [
+  {
+   "at": 1791086098396,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791086175172,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791086195104,
+   "status": "completed",
+   "progress": 100
+  }
+ ],
+ "url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-v2.0/video_f8f00c06a20245698e849966916ff442.mp4",
+ "latest": {
+  "completed_at": 1791086175,
+  "created_at": 1791086095,
+  "error": null,
+  "expires_at": null,
+  "id": "video_f8f00c06a20245698e849966916ff442",
+  "input_image_filename": "video_f8f00c06a20245698e849966916ff442.png",
+  "internal_progress": 100,
+  "internal_status": "completed",
+  "object": "video",
+  "perf_download_bytes": 1016364,
+  "perf_download_s": 2.7265264522284,
+  "perf_infer_s": 75.217858891934,
+  "perf_infer_t0": 14069139.218851,
+  "perf_output_size": 805673,
+  "perf_params": {
+   "frame_rate": 24,
+   "height": 832,
+   "num_frames": 121,
+   "num_inference_steps": 8,
+   "seed": 632709,
+   "width": 1088
+  },
+  "perf_upload_s": 2.1420883201063,
+  "progress": 100,
+  "prompt_id": "9eefad86-c52d-4514-b8d6-314fdea81006",
+  "remixed_from_video_id": null,
+  "request_params": {
+   "background_image": null,
+   "frame_rate": 24,
+   "global_prompt": "",
+   "height": 832,
+   "image": "https://platform-outputs.agnes-ai.space/images/t2i/task_VAjnVJuJiEbpVRmfKrky847im5PaIUNN/output_f8213128642f4cad84c1628d778aac7c.png",
+   "image_list": [
+    "https://platform-outputs.agnes-ai.space/images/t2i/task_VAjnVJuJiEbpVRmfKrky847im5PaIUNN/output_f8213128642f4cad84c1628d778aac7c.png"
+   ],
+   "local_prompts": "",
+   "max_length": 256,
+   "mode": "ti2vid",
+   "negative_prompt": "pc game, console game, video game, cartoon, childish, ugly, worst quality, blurry, jittery, distorted, inconsistent appearance",
+   "num_frames": 121,
+   "num_inference_steps_first_stage": null,
+   "prompt": "韩漫画风视频。@首帧 画面与首帧保持一致：黑色SUV静静停在黑暗中，车窗缓缓降下一条缝，一只戴黑色手套的手举起热成像望远镜对准工地红光方向。环境音：雨点敲车顶、引擎低怠速、对讲机电流杂音。动作幅度小，保持画面与首帧一致。",
+   "ratio": "4:3",
+   "resolution": "720p",
+   "seed": 632709,
+   "width": 1088
+  },
+  "seconds": "5.0",
+  "size": "1088x832",
+  "size_mapping": {
+   "adjusted": true,
+   "height": 832,
+   "message": "Input size 1152x768 was mapped to nearest preset 720p/4:3 (1088x832)",
+   "ratio": "4:3",
+   "requested_height": 768,
+   "requested_width": 1152,
+   "resolution": "720p",
+   "width": 1088
+  },
+  "status": "completed",
+  "url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-v2.0/video_f8f00c06a20245698e849966916ff442.mp4"
+ },
+ "verdict": "OK-LANDSCAPE",
+ "verdictNote": "1088x832 剪辑垫底"
+}

@@ -1,0 +1,96 @@
+{
+ "id": "EP2-010",
+ "model": "agnes-video-v2.0",
+ "lane": "v20",
+ "video_id": "video_bGl0ZWxsbTpjdXN0b21fbGxtX3Byb3ZpZGVyOm9wZW5haTttb2RlbF9pZDphZ25lcy12aWRlby12Mi4wO3ZpZGVvX2lkOnZpZGVvXzQ5MWIxYTY0ZDFkYzQ5MTc4OTUxY2FlNGNjMzQ1NTNh",
+ "created_at": 1791089720995,
+ "status": "submitted",
+ "polls": [
+  {
+   "at": 1791089757651,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791089774707,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791089790521,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791089806456,
+   "status": "completed",
+   "progress": 100
+  }
+ ],
+ "url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-v2.0/video_491b1a64d1dc49178951cae4cc34553a.mp4",
+ "latest": {
+  "completed_at": 1791089802,
+  "created_at": 1791089718,
+  "error": null,
+  "expires_at": null,
+  "id": "video_491b1a64d1dc49178951cae4cc34553a",
+  "input_image_filename": "video_491b1a64d1dc49178951cae4cc34553a.png",
+  "internal_progress": 100,
+  "internal_status": "completed",
+  "object": "video",
+  "perf_download_bytes": 1250002,
+  "perf_download_s": 2.6634611040354,
+  "perf_infer_s": 79.415687127039,
+  "perf_infer_t0": 14072620.564709,
+  "perf_output_size": 2386777,
+  "perf_params": {
+   "frame_rate": 24,
+   "height": 832,
+   "num_frames": 121,
+   "num_inference_steps": 8,
+   "seed": 534491,
+   "width": 1088
+  },
+  "perf_upload_s": 2.5081552099437,
+  "progress": 100,
+  "prompt_id": "1359ad4f-0b02-4b80-aece-5c3fe04f6e1b",
+  "remixed_from_video_id": null,
+  "request_params": {
+   "background_image": null,
+   "frame_rate": 24,
+   "global_prompt": "",
+   "height": 832,
+   "image": "https://platform-outputs.agnes-ai.space/images/t2i/task_EJPZBdFqjV1OhFtnhNzGMqKGj0qxffgk/output_afca679c547e472c81ef34803d7e694a.png",
+   "image_list": [
+    "https://platform-outputs.agnes-ai.space/images/t2i/task_EJPZBdFqjV1OhFtnhNzGMqKGj0qxffgk/output_afca679c547e472c81ef34803d7e694a.png"
+   ],
+   "local_prompts": "",
+   "max_length": 256,
+   "mode": "ti2vid",
+   "negative_prompt": "pc game, console game, video game, cartoon, childish, ugly, worst quality, blurry, jittery, distorted, inconsistent appearance",
+   "num_frames": 121,
+   "num_inference_steps_first_stage": null,
+   "prompt": "韩漫画风视频。@首帧 画面与首帧保持一致：水下，罔象数条长臂缓缓张开，发丝漂浮，它围着少年陆鼎游动打量，绿瞳眨动，气泡从它口中溢出。对白：罔象（水声中嗡鸣）：「沉下来……的……都归……我……」环境音：水下闷响、气泡串、低频嗡鸣。动作幅度小，保持画面与首帧一致。",
+   "ratio": "4:3",
+   "resolution": "720p",
+   "seed": 534491,
+   "width": 1088
+  },
+  "seconds": "5.0",
+  "size": "1088x832",
+  "size_mapping": {
+   "adjusted": true,
+   "height": 832,
+   "message": "Input size 1152x768 was mapped to nearest preset 720p/4:3 (1088x832)",
+   "ratio": "4:3",
+   "requested_height": 768,
+   "requested_width": 1152,
+   "resolution": "720p",
+   "width": 1088
+  },
+  "status": "completed",
+  "url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-v2.0/video_491b1a64d1dc49178951cae4cc34553a.mp4"
+ },
+ "verdict": "OK-LANDSCAPE",
+ "verdictNote": "1088x832 剪辑垫底"
+}

@@ -1,0 +1,96 @@
+{
+ "id": "EP1-013",
+ "model": "agnes-video-v2.0",
+ "lane": "v20",
+ "video_id": "video_bGl0ZWxsbTpjdXN0b21fbGxtX3Byb3ZpZGVyOm9wZW5haTttb2RlbF9pZDphZ25lcy12aWRlby12Mi4wO3ZpZGVvX2lkOnZpZGVvX2MyMGU0OTMwYmU2MTQxY2Q4MzI0OThjNDNkNGJhM2Vh",
+ "created_at": 1791085952104,
+ "status": "submitted",
+ "polls": [
+  {
+   "at": 1791085952228,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791086007918,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791086023673,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791086039544,
+   "status": "completed",
+   "progress": 100
+  }
+ ],
+ "url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-v2.0/video_c20e4930be6141cd832498c43d4ba3ea.mp4",
+ "latest": {
+  "completed_at": 1791086036,
+  "created_at": 1791085948,
+  "error": null,
+  "expires_at": null,
+  "id": "video_c20e4930be6141cd832498c43d4ba3ea",
+  "input_image_filename": "video_c20e4930be6141cd832498c43d4ba3ea.png",
+  "internal_progress": 100,
+  "internal_status": "completed",
+  "object": "video",
+  "perf_download_bytes": 1180393,
+  "perf_download_s": 2.9377535358071,
+  "perf_infer_s": 82.014055011794,
+  "perf_infer_t0": 10428675.520016,
+  "perf_output_size": 1571651,
+  "perf_params": {
+   "frame_rate": 24,
+   "height": 832,
+   "num_frames": 121,
+   "num_inference_steps": 8,
+   "seed": 562689,
+   "width": 1088
+  },
+  "perf_upload_s": 2.2817186135799,
+  "progress": 100,
+  "prompt_id": "d698ba10-a96f-40b4-9003-f708a9b94f7e",
+  "remixed_from_video_id": null,
+  "request_params": {
+   "background_image": null,
+   "frame_rate": 24,
+   "global_prompt": "",
+   "height": 832,
+   "image": "https://platform-outputs.agnes-ai.space/images/t2i/task_Z9u4aHDyCrcpL385a7ameMsgddBoDZz8/output_4ee994bd78c34afd961944dce7507f0d.png",
+   "image_list": [
+    "https://platform-outputs.agnes-ai.space/images/t2i/task_Z9u4aHDyCrcpL385a7ameMsgddBoDZz8/output_4ee994bd78c34afd961944dce7507f0d.png"
+   ],
+   "local_prompts": "",
+   "max_length": 256,
+   "mode": "ti2vid",
+   "negative_prompt": "pc game, console game, video game, cartoon, childish, ugly, worst quality, blurry, jittery, distorted, inconsistent appearance",
+   "num_frames": 121,
+   "num_inference_steps_first_stage": null,
+   "prompt": "韩漫画风视频。@首帧 画面与首帧保持一致：少年陆鼎闭目，眉心金光渐盛，头顶青铜古秤虚影缓缓旋转成形，古老的称量口诀如低语回荡。低语声：「斤车之道——衡者，秤心勿斜。」环境音：青铜器嗡鸣、音律般的风。动作幅度小，保持画面与首帧一致。",
+   "ratio": "4:3",
+   "resolution": "720p",
+   "seed": 562689,
+   "width": 1088
+  },
+  "seconds": "5.0",
+  "size": "1088x832",
+  "size_mapping": {
+   "adjusted": true,
+   "height": 832,
+   "message": "Input size 1152x768 was mapped to nearest preset 720p/4:3 (1088x832)",
+   "ratio": "4:3",
+   "requested_height": 768,
+   "requested_width": 1152,
+   "resolution": "720p",
+   "width": 1088
+  },
+  "status": "completed",
+  "url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-v2.0/video_c20e4930be6141cd832498c43d4ba3ea.mp4"
+ },
+ "verdict": "OK-LANDSCAPE",
+ "verdictNote": "1088x832 剪辑垫底"
+}

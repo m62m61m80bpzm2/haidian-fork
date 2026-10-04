@@ -1,0 +1,141 @@
+{
+ "id": "EP2-019",
+ "model": "agnes-video-v2.0",
+ "lane": "v20",
+ "video_id": "video_bGl0ZWxsbTpjdXN0b21fbGxtX3Byb3ZpZGVyOm9wZW5haTttb2RlbF9pZDphZ25lcy12aWRlby12Mi4wO3ZpZGVvX2lkOnZpZGVvXzM2OGU0YTJkNmE1ODRjZDc5MGZjOWQ4MWRlNmNhZThi",
+ "created_at": 1791091404611,
+ "status": "submitted",
+ "polls": [
+  {
+   "at": 1791091404737,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791091413043,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791091427956,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791091428570,
+   "status": "?",
+   "progress": null
+  },
+  {
+   "at": 1791091443491,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791091449827,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791091459024,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791091465361,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791091474566,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791091480887,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791091490124,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791091496421,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791091505860,
+   "status": "completed",
+   "progress": 100
+  }
+ ],
+ "url": "https://cos-platform-outputs.agnes-ai.cn/videos/agnes-video-v2.0/video_368e4a2d6a584cd790fc9d81de6cae8b.mp4",
+ "latest": {
+  "completed_at": 1791091503,
+  "created_at": 1791091401,
+  "error": null,
+  "expires_at": null,
+  "id": "video_368e4a2d6a584cd790fc9d81de6cae8b",
+  "input_image_filename": "video_368e4a2d6a584cd790fc9d81de6cae8b.png",
+  "internal_progress": 100,
+  "internal_status": "completed",
+  "object": "video",
+  "perf_download_bytes": 1131717,
+  "perf_download_s": 2.9086981825531,
+  "perf_infer_s": 98.785643972456,
+  "perf_infer_t0": 11395892.104953,
+  "perf_output_size": 955018,
+  "perf_params": {
+   "frame_rate": 24,
+   "height": 832,
+   "num_frames": 121,
+   "num_inference_steps": 8,
+   "seed": 479274,
+   "width": 1088
+  },
+  "perf_upload_s": 0.27407521381974,
+  "progress": 100,
+  "prompt_id": "e1dfdff0-b4ad-4be4-8605-bd784ba0e34b",
+  "remixed_from_video_id": null,
+  "request_params": {
+   "background_image": null,
+   "frame_rate": 24,
+   "global_prompt": "",
+   "height": 832,
+   "image": "https://platform-outputs.agnes-ai.space/images/t2i/task_SCFu0hqQe6DCHINCyHbhvVxJ0o8eavJz/output_8de570ee275143efb53824a7d0396a0d.png",
+   "image_list": [
+    "https://platform-outputs.agnes-ai.space/images/t2i/task_SCFu0hqQe6DCHINCyHbhvVxJ0o8eavJz/output_8de570ee275143efb53824a7d0396a0d.png"
+   ],
+   "local_prompts": "",
+   "max_length": 256,
+   "mode": "ti2vid",
+   "negative_prompt": "pc game, console game, video game, cartoon, childish, ugly, worst quality, blurry, jittery, distorted, inconsistent appearance",
+   "num_frames": 121,
+   "num_inference_steps_first_stage": null,
+   "prompt": "韩漫画风视频。@首帧 画面与首帧保持一致：钢笔在状态栏写下\"已封存\"，镜头缓缓移向旁边那张空白新档案卡，卡头编号栏写着一个崭新的\"38\"。旁白低语：「收容，永远有下一个。」环境音：翻纸、钢印落下闷响。结尾压黑，保持画面与首帧一致。",
+   "ratio": "4:3",
+   "resolution": "720p",
+   "seed": 479274,
+   "width": 1088
+  },
+  "seconds": "5.0",
+  "size": "1088x832",
+  "size_mapping": {
+   "adjusted": true,
+   "height": 832,
+   "message": "Input size 1152x768 was mapped to nearest preset 720p/4:3 (1088x832)",
+   "ratio": "4:3",
+   "requested_height": 768,
+   "requested_width": 1152,
+   "resolution": "720p",
+   "width": 1088
+  },
+  "status": "completed",
+  "url": "https://cos-platform-outputs.agnes-ai.cn/videos/agnes-video-v2.0/video_368e4a2d6a584cd790fc9d81de6cae8b.mp4"
+ },
+ "verdict": "OK-LANDSCAPE",
+ "verdictNote": "1088x832 剪辑垫底"
+}

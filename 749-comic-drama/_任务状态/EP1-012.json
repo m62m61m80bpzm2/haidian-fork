@@ -1,0 +1,91 @@
+{
+ "id": "EP1-012",
+ "model": "agnes-video-v2.0",
+ "lane": "v20",
+ "video_id": "video_bGl0ZWxsbTpjdXN0b21fbGxtX3Byb3ZpZGVyOm9wZW5haTttb2RlbF9pZDphZ25lcy12aWRlby12Mi4wO3ZpZGVvX2lkOnZpZGVvX2Y2Y2RjYjM3YWJkNDQzNDhiYTM3NGZjNGUwYzlmYzUx",
+ "created_at": 1791085785750,
+ "status": "submitted",
+ "polls": [
+  {
+   "at": 1791085820653,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791085876498,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791085892511,
+   "status": "completed",
+   "progress": 100
+  }
+ ],
+ "url": "https://cos-platform-outputs.agnes-ai.cn/videos/agnes-video-v2.0/video_f6cdcb37abd44348ba374fc4e0c9fc51.mp4",
+ "latest": {
+  "completed_at": 1791085888,
+  "created_at": 1791085781,
+  "error": null,
+  "expires_at": null,
+  "id": "video_f6cdcb37abd44348ba374fc4e0c9fc51",
+  "input_image_filename": "video_f6cdcb37abd44348ba374fc4e0c9fc51.png",
+  "internal_progress": 100,
+  "internal_status": "completed",
+  "object": "video",
+  "perf_download_bytes": 1458149,
+  "perf_download_s": 2.8157376721501,
+  "perf_infer_s": 102.98763277568,
+  "perf_infer_t0": 9561683.1888067,
+  "perf_output_size": 5576786,
+  "perf_params": {
+   "frame_rate": 24,
+   "height": 832,
+   "num_frames": 121,
+   "num_inference_steps": 8,
+   "seed": 358443,
+   "width": 1088
+  },
+  "perf_upload_s": 0.42126936838031,
+  "progress": 100,
+  "prompt_id": "f2275423-1158-4f2c-899f-cab1b399fa33",
+  "remixed_from_video_id": null,
+  "request_params": {
+   "background_image": null,
+   "frame_rate": 24,
+   "global_prompt": "",
+   "height": 832,
+   "image": "https://platform-outputs.agnes-ai.space/images/t2i/task_P1XHQRFsVAtyzr7N80NTFTn1PH6xbbBy/output_f0a8f1e55fb04e9aa6be9ccc800a647a.png",
+   "image_list": [
+    "https://platform-outputs.agnes-ai.space/images/t2i/task_P1XHQRFsVAtyzr7N80NTFTn1PH6xbbBy/output_f0a8f1e55fb04e9aa6be9ccc800a647a.png"
+   ],
+   "local_prompts": "",
+   "max_length": 256,
+   "mode": "ti2vid",
+   "negative_prompt": "pc game, console game, video game, cartoon, childish, ugly, worst quality, blurry, jittery, distorted, inconsistent appearance",
+   "num_frames": 121,
+   "num_inference_steps_first_stage": null,
+   "prompt": "韩漫画风视频。@首帧 画面与首帧保持一致：钻头钻入血石，金光从接触点炸开，石球裂纹蔓延至整球，猛然从内部炸开成漫天金色碎屑，一道信息流卷向镜头。环境音：炸裂轰鸣、余音如钟鸣回荡。动作幅度大，结尾白光过渡，保持画面与首帧一致。",
+   "ratio": "4:3",
+   "resolution": "720p",
+   "seed": 358443,
+   "width": 1088
+  },
+  "seconds": "5.0",
+  "size": "1088x832",
+  "size_mapping": {
+   "adjusted": true,
+   "height": 832,
+   "message": "Input size 1152x768 was mapped to nearest preset 720p/4:3 (1088x832)",
+   "ratio": "4:3",
+   "requested_height": 768,
+   "requested_width": 1152,
+   "resolution": "720p",
+   "width": 1088
+  },
+  "status": "completed",
+  "url": "https://cos-platform-outputs.agnes-ai.cn/videos/agnes-video-v2.0/video_f6cdcb37abd44348ba374fc4e0c9fc51.mp4"
+ },
+ "verdict": "OK-LANDSCAPE",
+ "verdictNote": "1088x832 剪辑垫底"
+}

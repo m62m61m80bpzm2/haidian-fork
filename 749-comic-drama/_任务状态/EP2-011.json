@@ -1,0 +1,106 @@
+{
+ "id": "EP2-011",
+ "model": "agnes-video-v2.0",
+ "lane": "v20",
+ "video_id": "video_bGl0ZWxsbTpjdXN0b21fbGxtX3Byb3ZpZGVyOm9wZW5haTttb2RlbF9pZDphZ25lcy12aWRlby12Mi4wO3ZpZGVvX2lkOnZpZGVvX2NiMzA1YmE4NmIwODQ3NzFhNjk4YTZlZjE4NzYyZDcx",
+ "created_at": 1791089872502,
+ "status": "submitted",
+ "polls": [
+  {
+   "at": 1791089872630,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791089926659,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791089928442,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791089942455,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791089944108,
+   "status": "?",
+   "progress": null
+  },
+  {
+   "at": 1791089998333,
+   "status": "completed",
+   "progress": 100
+  }
+ ],
+ "url": "https://cos-platform-outputs.agnes-ai.cn/videos/agnes-video-v2.0/video_cb305ba86b084771a698a6ef18762d71.mp4",
+ "latest": {
+  "completed_at": 1791089996,
+  "created_at": 1791089869,
+  "error": null,
+  "expires_at": null,
+  "id": "video_cb305ba86b084771a698a6ef18762d71",
+  "input_image_filename": "video_cb305ba86b084771a698a6ef18762d71.png",
+  "internal_progress": 100,
+  "internal_status": "completed",
+  "object": "video",
+  "perf_download_bytes": 1296810,
+  "perf_download_s": 2.3284976538271,
+  "perf_infer_s": 124.28491436318,
+  "perf_infer_t0": 14072910.271676,
+  "perf_output_size": 2193157,
+  "perf_params": {
+   "frame_rate": 24,
+   "height": 832,
+   "num_frames": 121,
+   "num_inference_steps": 8,
+   "seed": 948432,
+   "width": 1088
+  },
+  "perf_upload_s": 0.28749293275177,
+  "progress": 100,
+  "prompt_id": "135f01fa-d132-4a29-b3b0-21f62e764617",
+  "remixed_from_video_id": null,
+  "request_params": {
+   "background_image": null,
+   "frame_rate": 24,
+   "global_prompt": "",
+   "height": 832,
+   "image": "https://platform-outputs.agnes-ai.space/images/t2i/task_63OonePUKigBRWu24whBAvfBKAGgyFBy/output_635cc72672d444dc9ce419d10ce3db57.png",
+   "image_list": [
+    "https://platform-outputs.agnes-ai.space/images/t2i/task_63OonePUKigBRWu24whBAvfBKAGgyFBy/output_635cc72672d444dc9ce419d10ce3db57.png"
+   ],
+   "local_prompts": "",
+   "max_length": 256,
+   "mode": "ti2vid",
+   "negative_prompt": "pc game, console game, video game, cartoon, childish, ugly, worst quality, blurry, jittery, distorted, inconsistent appearance",
+   "num_frames": 121,
+   "num_inference_steps_first_stage": null,
+   "prompt": "韩漫画风视频。@首帧 画面与首帧保持一致：少年陆鼎意识模糊下沉，掌心青铜秤忽然烫醒他，金色古老文字虚影绕身旋转，传承低语在水中回荡。低语声：「秤心勿斜——心正，则衡自定。」环境音：水声远去、心跳如钟、古老音律。动作幅度小，保持画面与首帧一致。",
+   "ratio": "4:3",
+   "resolution": "720p",
+   "seed": 948432,
+   "width": 1088
+  },
+  "seconds": "5.0",
+  "size": "1088x832",
+  "size_mapping": {
+   "adjusted": true,
+   "height": 832,
+   "message": "Input size 1152x768 was mapped to nearest preset 720p/4:3 (1088x832)",
+   "ratio": "4:3",
+   "requested_height": 768,
+   "requested_width": 1152,
+   "resolution": "720p",
+   "width": 1088
+  },
+  "status": "completed",
+  "url": "https://cos-platform-outputs.agnes-ai.cn/videos/agnes-video-v2.0/video_cb305ba86b084771a698a6ef18762d71.mp4"
+ },
+ "verdict": "OK-LANDSCAPE",
+ "verdictNote": "1088x832 剪辑垫底"
+}

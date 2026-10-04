@@ -1,0 +1,86 @@
+{
+ "id": "EP1-018",
+ "model": "agnes-video-v2.0",
+ "lane": "v20",
+ "video_id": "video_bGl0ZWxsbTpjdXN0b21fbGxtX3Byb3ZpZGVyOm9wZW5haTttb2RlbF9pZDphZ25lcy12aWRlby12Mi4wO3ZpZGVvX2lkOnZpZGVvX2UwMmU1ZDBmYzY3NDQ2ZDhiZGQ2ZjQ1NTE5MjNhOTBj",
+ "created_at": 1791086853486,
+ "status": "submitted",
+ "polls": [
+  {
+   "at": 1791086889867,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791086945893,
+   "status": "completed",
+   "progress": 100
+  }
+ ],
+ "url": "https://cos-platform-outputs.agnes-ai.cn/videos/agnes-video-v2.0/video_e02e5d0fc67446d8bdd6f4551923a90c.mp4",
+ "latest": {
+  "completed_at": 1791086941,
+  "created_at": 1791086850,
+  "error": null,
+  "expires_at": null,
+  "id": "video_e02e5d0fc67446d8bdd6f4551923a90c",
+  "input_image_filename": "video_e02e5d0fc67446d8bdd6f4551923a90c.png",
+  "internal_progress": 100,
+  "internal_status": "completed",
+  "object": "video",
+  "perf_download_bytes": 975427,
+  "perf_download_s": 2.8256286997348,
+  "perf_infer_s": 87.701200155541,
+  "perf_infer_t0": 14069826.215112,
+  "perf_output_size": 1134527,
+  "perf_params": {
+   "frame_rate": 24,
+   "height": 832,
+   "num_frames": 121,
+   "num_inference_steps": 8,
+   "seed": 572208,
+   "width": 1088
+  },
+  "perf_upload_s": 0.28046193532646,
+  "progress": 100,
+  "prompt_id": "936ff5e0-b9a1-4d8a-86d6-ce99fe7f3747",
+  "remixed_from_video_id": null,
+  "request_params": {
+   "background_image": null,
+   "frame_rate": 24,
+   "global_prompt": "",
+   "height": 832,
+   "image": "https://platform-outputs.agnes-ai.space/images/t2i/task_7Q5tKtqb3QcOhJh1XBTNM50jVnpXDPqn/output_2cdf6553748245c8816d183a43d836a2.png",
+   "image_list": [
+    "https://platform-outputs.agnes-ai.space/images/t2i/task_7Q5tKtqb3QcOhJh1XBTNM50jVnpXDPqn/output_2cdf6553748245c8816d183a43d836a2.png"
+   ],
+   "local_prompts": "",
+   "max_length": 256,
+   "mode": "ti2vid",
+   "negative_prompt": "pc game, console game, video game, cartoon, childish, ugly, worst quality, blurry, jittery, distorted, inconsistent appearance",
+   "num_frames": 121,
+   "num_inference_steps_first_stage": null,
+   "prompt": "韩漫画风视频。@首帧 画面与首帧保持一致：钢笔缓缓在档案上写下\"陆鼎\"，红笔随即圈住姓名，镜头定格在红圈与照片上，画面渐暗只余红圈发亮。旁白低语：「749局的名单上，又多了一个名字。」环境音：笔尖书写沙沙、合拢档案的闷响。结尾压黑，保持画面与首帧一致。",
+   "ratio": "4:3",
+   "resolution": "720p",
+   "seed": 572208,
+   "width": 1088
+  },
+  "seconds": "5.0",
+  "size": "1088x832",
+  "size_mapping": {
+   "adjusted": true,
+   "height": 832,
+   "message": "Input size 1152x768 was mapped to nearest preset 720p/4:3 (1088x832)",
+   "ratio": "4:3",
+   "requested_height": 768,
+   "requested_width": 1152,
+   "resolution": "720p",
+   "width": 1088
+  },
+  "status": "completed",
+  "url": "https://cos-platform-outputs.agnes-ai.cn/videos/agnes-video-v2.0/video_e02e5d0fc67446d8bdd6f4551923a90c.mp4"
+ },
+ "verdict": "OK-LANDSCAPE",
+ "verdictNote": "1088x832 剪辑垫底"
+}

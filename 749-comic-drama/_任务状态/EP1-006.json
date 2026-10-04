@@ -1,0 +1,94 @@
+{
+ "id": "EP1-006",
+ "model": "agnes-video-2.5-flash",
+ "lane": "flash",
+ "video_id": "task_c1sqhDGZ3HJ8EOExRwvrrZdqDEei2Ryt",
+ "created_at": 1791084807099,
+ "status": "submitted",
+ "polls": [
+  {
+   "at": 1791084807634,
+   "status": "pending",
+   "progress": 0
+  },
+  {
+   "at": 1791084824009,
+   "status": "pending",
+   "progress": 0
+  },
+  {
+   "at": 1791084884146,
+   "status": "pending",
+   "progress": 0
+  },
+  {
+   "at": 1791084900103,
+   "status": "pending",
+   "progress": 0
+  },
+  {
+   "at": 1791084916006,
+   "status": "pending",
+   "progress": 0
+  },
+  {
+   "at": 1791084931891,
+   "status": "in_progress",
+   "progress": 10
+  },
+  {
+   "at": 1791084947836,
+   "status": "in_progress",
+   "progress": 10
+  },
+  {
+   "at": 1791084963786,
+   "status": "in_progress",
+   "progress": 10
+  },
+  {
+   "at": 1791084979732,
+   "status": "in_progress",
+   "progress": 10
+  },
+  {
+   "at": 1791084995686,
+   "status": "in_progress",
+   "progress": 10
+  },
+  {
+   "at": 1791085020297,
+   "status": "in_progress",
+   "progress": 10
+  },
+  {
+   "at": 1791085036252,
+   "status": "in_progress",
+   "progress": 10
+  },
+  {
+   "at": 1791085057236,
+   "status": "completed",
+   "progress": 100
+  }
+ ],
+ "url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_c1sqhDGZ3HJ8EOExRwvrrZdqDEei2Ryt.mp4",
+ "latest": {
+  "completed_at": 1791085053,
+  "created_at": 1791084806,
+  "error": null,
+  "expires_at": null,
+  "id": "task_c1sqhDGZ3HJ8EOExRwvrrZdqDEei2Ryt",
+  "internal_progress": 0,
+  "internal_status": "pending",
+  "object": "video",
+  "progress": 100,
+  "quality": "standard",
+  "remixed_from_video_id": null,
+  "seconds": "4",
+  "size": "720P",
+  "started_at": 1791084918,
+  "status": "completed",
+  "url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_c1sqhDGZ3HJ8EOExRwvrrZdqDEei2Ryt.mp4"
+ }
+}

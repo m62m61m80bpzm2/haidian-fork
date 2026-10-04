@@ -1,0 +1,96 @@
+{
+ "id": "EP1-001",
+ "model": "agnes-video-v2.0",
+ "lane": "v20",
+ "video_id": "video_bGl0ZWxsbTpjdXN0b21fbGxtX3Byb3ZpZGVyOm9wZW5haTttb2RlbF9pZDphZ25lcy12aWRlby12Mi4wO3ZpZGVvX2lkOnZpZGVvXzMwMGIxMjY2MTRlYTQ4MGZhOWQxNjA1MDEzOWE1MTVm",
+ "created_at": 1791084031716,
+ "status": "submitted",
+ "polls": [
+  {
+   "at": 1791084069218,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791084125071,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791084140810,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791084196821,
+   "status": "completed",
+   "progress": 100
+  }
+ ],
+ "url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-v2.0/video_300b126614ea480fa9d16050139a515f.mp4",
+ "latest": {
+  "completed_at": 1791084188,
+  "created_at": 1791084029,
+  "error": null,
+  "expires_at": null,
+  "id": "video_300b126614ea480fa9d16050139a515f",
+  "input_image_filename": "video_300b126614ea480fa9d16050139a515f.png",
+  "internal_progress": 100,
+  "internal_status": "completed",
+  "object": "video",
+  "perf_download_bytes": 1307544,
+  "perf_download_s": 2.4814907480031,
+  "perf_infer_s": 154.31863896362,
+  "perf_infer_t0": 11032019.702368,
+  "perf_output_size": 1946255,
+  "perf_params": {
+   "frame_rate": 24,
+   "height": 832,
+   "num_frames": 121,
+   "num_inference_steps": 8,
+   "seed": 382420,
+   "width": 1088
+  },
+  "perf_upload_s": 2.4794077593833,
+  "progress": 100,
+  "prompt_id": "eda365c1-b57b-4f68-ba5e-7918d90b9b36",
+  "remixed_from_video_id": null,
+  "request_params": {
+   "background_image": null,
+   "frame_rate": 24,
+   "global_prompt": "",
+   "height": 832,
+   "image": "https://platform-outputs.agnes-ai.space/images/t2i/task_0rOjLbibYpeJ05ve8PFiclJhmwEKkIla/output_5028cf5dc5d9494583260d1115767568.png",
+   "image_list": [
+    "https://platform-outputs.agnes-ai.space/images/t2i/task_0rOjLbibYpeJ05ve8PFiclJhmwEKkIla/output_5028cf5dc5d9494583260d1115767568.png"
+   ],
+   "local_prompts": "",
+   "max_length": 256,
+   "mode": "ti2vid",
+   "negative_prompt": "pc game, console game, video game, cartoon, childish, ugly, worst quality, blurry, jittery, distorted, inconsistent appearance",
+   "num_frames": 121,
+   "num_inference_steps_first_stage": null,
+   "prompt": "韩漫画风视频。@首帧 画面与首帧保持一致：镜头从塔吊顶端缓缓下摇推向基坑，探照灯光柱中尘埃缓缓漂浮，远处城市灯火微弱闪烁。环境音：夜风呼啸、探照灯电流嗡鸣、远处货车驶过。运镜缓慢，保持画面与首帧一致。",
+   "ratio": "4:3",
+   "resolution": "720p",
+   "seed": 382420,
+   "width": 1088
+  },
+  "seconds": "5.0",
+  "size": "1088x832",
+  "size_mapping": {
+   "adjusted": true,
+   "height": 832,
+   "message": "Input size 1152x768 was mapped to nearest preset 720p/4:3 (1088x832)",
+   "ratio": "4:3",
+   "requested_height": 768,
+   "requested_width": 1152,
+   "resolution": "720p",
+   "width": 1088
+  },
+  "status": "completed",
+  "url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-v2.0/video_300b126614ea480fa9d16050139a515f.mp4"
+ },
+ "verdict": "OK-LANDSCAPE",
+ "verdictNote": "1088x832 剪辑垫底"
+}

@@ -1,0 +1,86 @@
+{
+ "id": "EP1-010",
+ "model": "agnes-video-v2.0",
+ "lane": "v20",
+ "video_id": "video_bGl0ZWxsbTpjdXN0b21fbGxtX3Byb3ZpZGVyOm9wZW5haTttb2RlbF9pZDphZ25lcy12aWRlby12Mi4wO3ZpZGVvX2lkOnZpZGVvXzJmMmE4MzQwYTIyNTRmNDk4OGNkMDNhYTM2YjRjZGIz",
+ "created_at": 1791085342133,
+ "status": "submitted",
+ "polls": [
+  {
+   "at": 1791085379079,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791085439069,
+   "status": "completed",
+   "progress": 100
+  }
+ ],
+ "url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-v2.0/video_2f2a8340a2254f4988cd03aa36b4cdb3.mp4",
+ "latest": {
+  "completed_at": 1791085429,
+  "created_at": 1791085338,
+  "error": null,
+  "expires_at": null,
+  "id": "video_2f2a8340a2254f4988cd03aa36b4cdb3",
+  "input_image_filename": "video_2f2a8340a2254f4988cd03aa36b4cdb3.png",
+  "internal_progress": 100,
+  "internal_status": "completed",
+  "object": "video",
+  "perf_download_bytes": 1430721,
+  "perf_download_s": 3.0735492426902,
+  "perf_infer_s": 85.070722782984,
+  "perf_infer_t0": 13733648.041353,
+  "perf_output_size": 1491421,
+  "perf_params": {
+   "frame_rate": 24,
+   "height": 832,
+   "num_frames": 121,
+   "num_inference_steps": 8,
+   "seed": 896766,
+   "width": 1088
+  },
+  "perf_upload_s": 2.323651811108,
+  "progress": 100,
+  "prompt_id": "9a7641a4-0ab6-4b0e-94e8-299069aa04b4",
+  "remixed_from_video_id": null,
+  "request_params": {
+   "background_image": null,
+   "frame_rate": 24,
+   "global_prompt": "",
+   "height": 832,
+   "image": "https://platform-outputs.agnes-ai.space/images/t2i/task_xPcjKY5Gfy6p2hXFnZtExGoMF5WMei9q/output_10e5e514c4e74166a3f477907c49c5de.png",
+   "image_list": [
+    "https://platform-outputs.agnes-ai.space/images/t2i/task_xPcjKY5Gfy6p2hXFnZtExGoMF5WMei9q/output_10e5e514c4e74166a3f477907c49c5de.png"
+   ],
+   "local_prompts": "",
+   "max_length": 256,
+   "mode": "ti2vid",
+   "negative_prompt": "pc game, console game, video game, cartoon, childish, ugly, worst quality, blurry, jittery, distorted, inconsistent appearance",
+   "num_frames": 121,
+   "num_inference_steps_first_stage": null,
+   "prompt": "韩漫画风视频。@首帧 画面与首帧保持一致：少年陆鼎瘫坐在地想后退却腿软，血石缓缓降至他面前一臂距离，红光在他眼中明灭，石球表面浮现古老纹路。对白：陆鼎（颤声）：「你……你想干什么……」环境音：低频嗡鸣贴着耳膜、心跳声放大。动作幅度中等，保持画面与首帧一致。",
+   "ratio": "4:3",
+   "resolution": "720p",
+   "seed": 896766,
+   "width": 1088
+  },
+  "seconds": "5.0",
+  "size": "1088x832",
+  "size_mapping": {
+   "adjusted": true,
+   "height": 832,
+   "message": "Input size 1152x768 was mapped to nearest preset 720p/4:3 (1088x832)",
+   "ratio": "4:3",
+   "requested_height": 768,
+   "requested_width": 1152,
+   "resolution": "720p",
+   "width": 1088
+  },
+  "status": "completed",
+  "url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-v2.0/video_2f2a8340a2254f4988cd03aa36b4cdb3.mp4"
+ },
+ "verdict": "OK-LANDSCAPE",
+ "verdictNote": "1088x832 剪辑垫底"
+}

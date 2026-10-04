@@ -1,0 +1,106 @@
+{
+ "id": "EP2-002",
+ "model": "agnes-video-v2.0",
+ "lane": "v20",
+ "video_id": "video_bGl0ZWxsbTpjdXN0b21fbGxtX3Byb3ZpZGVyOm9wZW5haTttb2RlbF9pZDphZ25lcy12aWRlby12Mi4wO3ZpZGVvX2lkOnZpZGVvX2VlYjM1NzkwYWI2YTRhZjI4YWFiOTA0ODZhM2NjNGJl",
+ "created_at": 1791088263257,
+ "status": "submitted",
+ "polls": [
+  {
+   "at": 1791088267216,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791088299891,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791088323069,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791088338861,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791088355606,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791088394819,
+   "status": "completed",
+   "progress": 100
+  }
+ ],
+ "url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-v2.0/video_eeb35790ab6a4af28aab90486a3cc4be.mp4",
+ "latest": {
+  "completed_at": 1791088387,
+  "created_at": 1791088259,
+  "error": null,
+  "expires_at": null,
+  "id": "video_eeb35790ab6a4af28aab90486a3cc4be",
+  "input_image_filename": "video_eeb35790ab6a4af28aab90486a3cc4be.png",
+  "internal_progress": 100,
+  "internal_status": "completed",
+  "object": "video",
+  "perf_download_bytes": 1494936,
+  "perf_download_s": 2.9284636415541,
+  "perf_infer_s": 122.7608301118,
+  "perf_infer_t0": 14071267.360615,
+  "perf_output_size": 1802719,
+  "perf_params": {
+   "frame_rate": 24,
+   "height": 832,
+   "num_frames": 121,
+   "num_inference_steps": 8,
+   "seed": 938492,
+   "width": 1088
+  },
+  "perf_upload_s": 2.3772670831531,
+  "progress": 100,
+  "prompt_id": "8b76be6a-7b96-4e71-9d5d-209edc9f5b30",
+  "remixed_from_video_id": null,
+  "request_params": {
+   "background_image": null,
+   "frame_rate": 24,
+   "global_prompt": "",
+   "height": 832,
+   "image": "https://platform-outputs.agnes-ai.space/images/t2i/task_tbcv0CrgSCfSz8YOqT9yzDbfDUYjNvvf/output_a516d377aac44dbda9c54f3a06f5f722.png",
+   "image_list": [
+    "https://platform-outputs.agnes-ai.space/images/t2i/task_tbcv0CrgSCfSz8YOqT9yzDbfDUYjNvvf/output_a516d377aac44dbda9c54f3a06f5f722.png"
+   ],
+   "local_prompts": "",
+   "max_length": 256,
+   "mode": "ti2vid",
+   "negative_prompt": "pc game, console game, video game, cartoon, childish, ugly, worst quality, blurry, jittery, distorted, inconsistent appearance",
+   "num_frames": 121,
+   "num_inference_steps_first_stage": null,
+   "prompt": "韩漫画风视频。@首帧 画面与首帧保持一致：村民们围着议论纷纷，蹲着的老汉猛吸一口烟，妇人抹泪，人群骚动。对白：老汉：「第三个了！下水摸螺蛳的娃，一个都没上来！」环境音：雨声、嘈杂人声、压低的哭声。动作幅度中等，保持画面与首帧一致。",
+   "ratio": "4:3",
+   "resolution": "720p",
+   "seed": 938492,
+   "width": 1088
+  },
+  "seconds": "5.0",
+  "size": "1088x832",
+  "size_mapping": {
+   "adjusted": true,
+   "height": 832,
+   "message": "Input size 1152x768 was mapped to nearest preset 720p/4:3 (1088x832)",
+   "ratio": "4:3",
+   "requested_height": 768,
+   "requested_width": 1152,
+   "resolution": "720p",
+   "width": 1088
+  },
+  "status": "completed",
+  "url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-v2.0/video_eeb35790ab6a4af28aab90486a3cc4be.mp4"
+ },
+ "verdict": "OK-LANDSCAPE",
+ "verdictNote": "1088x832 剪辑垫底"
+}

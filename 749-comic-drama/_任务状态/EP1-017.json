@@ -1,0 +1,86 @@
+{
+ "id": "EP1-017",
+ "model": "agnes-video-v2.0",
+ "lane": "v20",
+ "video_id": "video_bGl0ZWxsbTpjdXN0b21fbGxtX3Byb3ZpZGVyOm9wZW5haTttb2RlbF9pZDphZ25lcy12aWRlby12Mi4wO3ZpZGVvX2lkOnZpZGVvXzVjZjgwOTM4ZTllMjQ5M2NiNGU5NDhiMjAyMDVkN2Q0",
+ "created_at": 1791086737847,
+ "status": "submitted",
+ "polls": [
+  {
+   "at": 1791086773910,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791086833945,
+   "status": "completed",
+   "progress": 100
+  }
+ ],
+ "url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-v2.0/video_5cf80938e9e2493cb4e948b20205d7d4.mp4",
+ "latest": {
+  "completed_at": 1791086819,
+  "created_at": 1791086733,
+  "error": null,
+  "expires_at": null,
+  "id": "video_5cf80938e9e2493cb4e948b20205d7d4",
+  "input_image_filename": "video_5cf80938e9e2493cb4e948b20205d7d4.png",
+  "internal_progress": 100,
+  "internal_status": "completed",
+  "object": "video",
+  "perf_download_bytes": 1387805,
+  "perf_download_s": 3.9953990001231,
+  "perf_infer_s": 79.258928582072,
+  "perf_infer_t0": 13641744.817173,
+  "perf_output_size": 1671973,
+  "perf_params": {
+   "frame_rate": 24,
+   "height": 832,
+   "num_frames": 121,
+   "num_inference_steps": 8,
+   "seed": 591375,
+   "width": 1088
+  },
+  "perf_upload_s": 2.3384303152561,
+  "progress": 100,
+  "prompt_id": "40a0134b-b902-4245-9757-38f6045bc1b9",
+  "remixed_from_video_id": null,
+  "request_params": {
+   "background_image": null,
+   "frame_rate": 24,
+   "global_prompt": "",
+   "height": 832,
+   "image": "https://platform-outputs.agnes-ai.space/images/t2i/task_qfiyXNFgH600wqxWJ9zqkd43ryrSx0gp/output_30f05a6ba6e74b10aad361d96610e527.png",
+   "image_list": [
+    "https://platform-outputs.agnes-ai.space/images/t2i/task_qfiyXNFgH600wqxWJ9zqkd43ryrSx0gp/output_30f05a6ba6e74b10aad361d96610e527.png"
+   ],
+   "local_prompts": "",
+   "max_length": 256,
+   "mode": "ti2vid",
+   "negative_prompt": "pc game, console game, video game, cartoon, childish, ugly, worst quality, blurry, jittery, distorted, inconsistent appearance",
+   "num_frames": 121,
+   "num_inference_steps_first_stage": null,
+   "prompt": "韩漫画风视频。@首帧 画面与首帧保持一致：少年陆鼎打着哈欠走在空旷街道，身后黑色SUV保持距离缓缓滑行，路灯一盏盏在他头顶掠过明灭。环境音：脚步回声、夜风、远处引擎低鸣。动作幅度小，保持画面与首帧一致。",
+   "ratio": "4:3",
+   "resolution": "720p",
+   "seed": 591375,
+   "width": 1088
+  },
+  "seconds": "5.0",
+  "size": "1088x832",
+  "size_mapping": {
+   "adjusted": true,
+   "height": 832,
+   "message": "Input size 1152x768 was mapped to nearest preset 720p/4:3 (1088x832)",
+   "ratio": "4:3",
+   "requested_height": 768,
+   "requested_width": 1152,
+   "resolution": "720p",
+   "width": 1088
+  },
+  "status": "completed",
+  "url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-v2.0/video_5cf80938e9e2493cb4e948b20205d7d4.mp4"
+ },
+ "verdict": "OK-LANDSCAPE",
+ "verdictNote": "1088x832 剪辑垫底"
+}

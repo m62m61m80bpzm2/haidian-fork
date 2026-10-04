@@ -1,0 +1,101 @@
+{
+ "id": "EP2-017",
+ "model": "agnes-video-v2.0",
+ "lane": "v20",
+ "video_id": "video_bGl0ZWxsbTpjdXN0b21fbGxtX3Byb3ZpZGVyOm9wZW5haTttb2RlbF9pZDphZ25lcy12aWRlby12Mi4wO3ZpZGVvX2lkOnZpZGVvXzNmYjUyZjRlOTU3ZjQ5MmNhY2FjMGZhZDYwY2U2YzA2",
+ "created_at": 1791091055738,
+ "status": "submitted",
+ "polls": [
+  {
+   "at": 1791091058522,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791091091905,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791091114583,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791091130357,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791091147784,
+   "status": "completed",
+   "progress": 100
+  }
+ ],
+ "url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-v2.0/video_3fb52f4e957f492cacac0fad60ce6c06.mp4",
+ "latest": {
+  "completed_at": 1791091145,
+  "created_at": 1791091051,
+  "error": null,
+  "expires_at": null,
+  "id": "video_3fb52f4e957f492cacac0fad60ce6c06",
+  "input_image_filename": "video_3fb52f4e957f492cacac0fad60ce6c06.png",
+  "internal_progress": 100,
+  "internal_status": "completed",
+  "object": "video",
+  "perf_download_bytes": 907580,
+  "perf_download_s": 2.6337820477784,
+  "perf_infer_s": 88.702687844634,
+  "perf_infer_t0": 14074143.819455,
+  "perf_output_size": 1307580,
+  "perf_params": {
+   "frame_rate": 24,
+   "height": 832,
+   "num_frames": 121,
+   "num_inference_steps": 8,
+   "seed": 550404,
+   "width": 1088
+  },
+  "perf_upload_s": 2.3490654472262,
+  "progress": 100,
+  "prompt_id": "88716830-ad15-4c28-af09-dd0292ee4425",
+  "remixed_from_video_id": null,
+  "request_params": {
+   "background_image": null,
+   "frame_rate": 24,
+   "global_prompt": "",
+   "height": 832,
+   "image": "https://platform-outputs.agnes-ai.space/images/t2i/task_nbtsPEw9GfRxsl5A2d2zMuy3uOxmgc3X/output_8a581f2ab24f47f99e95497148c5e432.png",
+   "image_list": [
+    "https://platform-outputs.agnes-ai.space/images/t2i/task_nbtsPEw9GfRxsl5A2d2zMuy3uOxmgc3X/output_8a581f2ab24f47f99e95497148c5e432.png"
+   ],
+   "local_prompts": "",
+   "max_length": 256,
+   "mode": "ti2vid",
+   "negative_prompt": "pc game, console game, video game, cartoon, childish, ugly, worst quality, blurry, jittery, distorted, inconsistent appearance",
+   "num_frames": 121,
+   "num_inference_steps_first_stage": null,
+   "prompt": "韩漫画风视频。@首帧 画面与首帧保持一致：黑色证件缓缓翻开，内页照片是少年陆鼎工装照，钢印编号浮现，页脚一行小字\"外聘·特别收容人\"。环境音：翻页脆响、金属徽标轻碰。动作幅度小，保持画面与首帧一致。",
+   "ratio": "4:3",
+   "resolution": "720p",
+   "seed": 550404,
+   "width": 1088
+  },
+  "seconds": "5.0",
+  "size": "1088x832",
+  "size_mapping": {
+   "adjusted": true,
+   "height": 832,
+   "message": "Input size 1152x768 was mapped to nearest preset 720p/4:3 (1088x832)",
+   "ratio": "4:3",
+   "requested_height": 768,
+   "requested_width": 1152,
+   "resolution": "720p",
+   "width": 1088
+  },
+  "status": "completed",
+  "url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-v2.0/video_3fb52f4e957f492cacac0fad60ce6c06.mp4"
+ },
+ "verdict": "OK-LANDSCAPE",
+ "verdictNote": "1088x832 剪辑垫底"
+}

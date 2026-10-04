@@ -1,0 +1,121 @@
+{
+ "id": "EP1-005",
+ "model": "agnes-video-v2.0",
+ "lane": "v20",
+ "video_id": "video_bGl0ZWxsbTpjdXN0b21fbGxtX3Byb3ZpZGVyOm9wZW5haTttb2RlbF9pZDphZ25lcy12aWRlby12Mi4wO3ZpZGVvX2lkOnZpZGVvXzc2ZGI0ZjBiOWMyYzRkNTNhZmM2NjQzNzI2ZTA2YjQ0",
+ "created_at": 1791084655030,
+ "status": "submitted",
+ "polls": [
+  {
+   "at": 1791084655509,
+   "status": "?",
+   "progress": null
+  },
+  {
+   "at": 1791084671450,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791084687409,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791084703365,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791084719785,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791084735552,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791084751322,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791084807218,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791084823379,
+   "status": "completed",
+   "progress": 100
+  }
+ ],
+ "url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-v2.0/video_76db4f0b9c2c4d53afc6643726e06b44.mp4",
+ "latest": {
+  "completed_at": 1791084821,
+  "created_at": 1791084651,
+  "error": null,
+  "expires_at": null,
+  "id": "video_76db4f0b9c2c4d53afc6643726e06b44",
+  "input_image_filename": "video_76db4f0b9c2c4d53afc6643726e06b44.png",
+  "internal_progress": 100,
+  "internal_status": "completed",
+  "object": "video",
+  "perf_download_bytes": 1493882,
+  "perf_download_s": 2.9227060899138,
+  "perf_infer_s": 163.93288229965,
+  "perf_infer_t0": 12923326.040798,
+  "perf_output_size": 1048410,
+  "perf_params": {
+   "frame_rate": 24,
+   "height": 832,
+   "num_frames": 121,
+   "num_inference_steps": 8,
+   "seed": 963587,
+   "width": 1088
+  },
+  "perf_upload_s": 2.2066274303943,
+  "progress": 100,
+  "prompt_id": "fc34c521-5eca-499b-8cea-4d4eeb73ab69",
+  "remixed_from_video_id": null,
+  "request_params": {
+   "background_image": null,
+   "frame_rate": 24,
+   "global_prompt": "",
+   "height": 832,
+   "image": "https://platform-outputs.agnes-ai.space/images/t2i/task_H5hiBMgbi9sLIDJPVFMuSWEJWExjLgLF/output_feb5c6e4efae4d85b517bf7832faf8d7.png",
+   "image_list": [
+    "https://platform-outputs.agnes-ai.space/images/t2i/task_H5hiBMgbi9sLIDJPVFMuSWEJWExjLgLF/output_feb5c6e4efae4d85b517bf7832faf8d7.png"
+   ],
+   "local_prompts": "",
+   "max_length": 256,
+   "mode": "ti2vid",
+   "negative_prompt": "pc game, console game, video game, cartoon, childish, ugly, worst quality, blurry, jittery, distorted, inconsistent appearance",
+   "num_frames": 121,
+   "num_inference_steps_first_stage": null,
+   "prompt": "韩漫画风视频。@首帧 画面与首帧保持一致：血红色石球表面纹路缓缓流动发亮，如心跳般明暗脉动，泥土簌簌滑落，红光渐渐增强。环境音：低频嗡鸣如心跳、泥土滑落簌簌声。动作幅度小而缓慢，保持画面与首帧一致。",
+   "ratio": "4:3",
+   "resolution": "720p",
+   "seed": 963587,
+   "width": 1088
+  },
+  "seconds": "5.0",
+  "size": "1088x832",
+  "size_mapping": {
+   "adjusted": true,
+   "height": 832,
+   "message": "Input size 1152x768 was mapped to nearest preset 720p/4:3 (1088x832)",
+   "ratio": "4:3",
+   "requested_height": 768,
+   "requested_width": 1152,
+   "resolution": "720p",
+   "width": 1088
+  },
+  "status": "completed",
+  "url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-v2.0/video_76db4f0b9c2c4d53afc6643726e06b44.mp4"
+ },
+ "verdict": "OK-LANDSCAPE",
+ "verdictNote": "1088x832 剪辑垫底"
+}

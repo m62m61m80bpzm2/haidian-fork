@@ -1,0 +1,106 @@
+{
+ "id": "EP2-003",
+ "model": "agnes-video-v2.0",
+ "lane": "v20",
+ "video_id": "video_bGl0ZWxsbTpjdXN0b21fbGxtX3Byb3ZpZGVyOm9wZW5haTttb2RlbF9pZDphZ25lcy12aWRlby12Mi4wO3ZpZGVvX2lkOnZpZGVvXzZmNDZhYjJlMzVmMTQxOTBhMjJmNjExYTViYTI2ODdk",
+ "created_at": 1791088474407,
+ "status": "submitted",
+ "polls": [
+  {
+   "at": 1791088506113,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791088522005,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791088537748,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791088553446,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791088561932,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791088609407,
+   "status": "completed",
+   "progress": 100
+  }
+ ],
+ "url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-v2.0/video_6f46ab2e35f14190a22f611a5ba2687d.mp4",
+ "latest": {
+  "completed_at": 1791088593,
+  "created_at": 1791088466,
+  "error": null,
+  "expires_at": null,
+  "id": "video_6f46ab2e35f14190a22f611a5ba2687d",
+  "input_image_filename": "video_6f46ab2e35f14190a22f611a5ba2687d.png",
+  "internal_progress": 100,
+  "internal_status": "completed",
+  "object": "video",
+  "perf_download_bytes": 1218521,
+  "perf_download_s": 7.4236556794494,
+  "perf_infer_s": 116.13284300268,
+  "perf_infer_t0": 13217511.74406,
+  "perf_output_size": 2285481,
+  "perf_params": {
+   "frame_rate": 24,
+   "height": 832,
+   "num_frames": 121,
+   "num_inference_steps": 8,
+   "seed": 16079,
+   "width": 1088
+  },
+  "perf_upload_s": 2.6344444639981,
+  "progress": 100,
+  "prompt_id": "0d688db2-81fb-4d5f-9a7b-5b8041c8e350",
+  "remixed_from_video_id": null,
+  "request_params": {
+   "background_image": null,
+   "frame_rate": 24,
+   "global_prompt": "",
+   "height": 832,
+   "image": "https://platform-outputs.agnes-ai.space/images/t2i/task_VQVIQeEJibdWoMfW6iGsofxICVCUiqie/output_3ddc8384558f491eb45d1ac6f6c9acfc.png",
+   "image_list": [
+    "https://platform-outputs.agnes-ai.space/images/t2i/task_VQVIQeEJibdWoMfW6iGsofxICVCUiqie/output_3ddc8384558f491eb45d1ac6f6c9acfc.png"
+   ],
+   "local_prompts": "",
+   "max_length": 256,
+   "mode": "ti2vid",
+   "negative_prompt": "pc game, console game, video game, cartoon, childish, ugly, worst quality, blurry, jittery, distorted, inconsistent appearance",
+   "num_frames": 121,
+   "num_inference_steps_first_stage": null,
+   "prompt": "韩漫画风视频。@首帧 画面与首帧保持一致：少年陆鼎展开勘测图纸，指着水塘方向对村民说话，神情认真，村民半信半疑交头接耳。对白：陆鼎：「我是区里派来的勘测员。今晚起，谁都别靠近水塘。」环境音：雨声、纸张展开声、窃窃私语。动作幅度中等，保持画面与首帧一致。",
+   "ratio": "4:3",
+   "resolution": "720p",
+   "seed": 16079,
+   "width": 1088
+  },
+  "seconds": "5.0",
+  "size": "1088x832",
+  "size_mapping": {
+   "adjusted": true,
+   "height": 832,
+   "message": "Input size 1152x768 was mapped to nearest preset 720p/4:3 (1088x832)",
+   "ratio": "4:3",
+   "requested_height": 768,
+   "requested_width": 1152,
+   "resolution": "720p",
+   "width": 1088
+  },
+  "status": "completed",
+  "url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-v2.0/video_6f46ab2e35f14190a22f611a5ba2687d.mp4"
+ },
+ "verdict": "OK-LANDSCAPE",
+ "verdictNote": "1088x832 剪辑垫底"
+}

@@ -1,0 +1,96 @@
+{
+ "id": "EP1-016",
+ "model": "agnes-video-v2.0",
+ "lane": "v20",
+ "video_id": "video_bGl0ZWxsbTpjdXN0b21fbGxtX3Byb3ZpZGVyOm9wZW5haTttb2RlbF9pZDphZ25lcy12aWRlby12Mi4wO3ZpZGVvX2lkOnZpZGVvXzVhOTM1Zjk1N2I4YzRiMDhhZjlhMjM0N2ZiNTViOTI1",
+ "created_at": 1791086585640,
+ "status": "submitted",
+ "polls": [
+  {
+   "at": 1791086622985,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791086646126,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791086661897,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791086717917,
+   "status": "completed",
+   "progress": 100
+  }
+ ],
+ "url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-v2.0/video_5a935f957b8c4b08af9a2347fb55b925.mp4",
+ "latest": {
+  "completed_at": 1791086672,
+  "created_at": 1791086582,
+  "error": null,
+  "expires_at": null,
+  "id": "video_5a935f957b8c4b08af9a2347fb55b925",
+  "input_image_filename": "video_5a935f957b8c4b08af9a2347fb55b925.png",
+  "internal_progress": 100,
+  "internal_status": "completed",
+  "object": "video",
+  "perf_download_bytes": 1355553,
+  "perf_download_s": 2.6765080336481,
+  "perf_infer_s": 84.616362666711,
+  "perf_infer_t0": 10429309.094698,
+  "perf_output_size": 1523232,
+  "perf_params": {
+   "frame_rate": 24,
+   "height": 832,
+   "num_frames": 121,
+   "num_inference_steps": 8,
+   "seed": 922948,
+   "width": 1088
+  },
+  "perf_upload_s": 2.3318095467985,
+  "progress": 100,
+  "prompt_id": "88324979-8b35-4568-bdfd-075a344bc8fe",
+  "remixed_from_video_id": null,
+  "request_params": {
+   "background_image": null,
+   "frame_rate": 24,
+   "global_prompt": "",
+   "height": 832,
+   "image": "https://platform-outputs.agnes-ai.space/images/t2i/task_hGJPHEK8YcS6ComBLHjsMGEYFfCOsJEi/output_3a3173d6c6964bd88a7bb6afc5828df2.png",
+   "image_list": [
+    "https://platform-outputs.agnes-ai.space/images/t2i/task_hGJPHEK8YcS6ComBLHjsMGEYFfCOsJEi/output_3a3173d6c6964bd88a7bb6afc5828df2.png"
+   ],
+   "local_prompts": "",
+   "max_length": 256,
+   "mode": "ti2vid",
+   "negative_prompt": "pc game, console game, video game, cartoon, childish, ugly, worst quality, blurry, jittery, distorted, inconsistent appearance",
+   "num_frames": 121,
+   "num_inference_steps_first_stage": null,
+   "prompt": "韩漫画风视频。@首帧 画面与首帧保持一致：镜头缓缓推近档案照片上的血红色石球，红笔在照片边缘写下\"S级·待收容\"，墨迹未干微微反光。环境音：翻纸沙沙、笔尖摩擦、时钟滴答。动作幅度小，保持画面与首帧一致。",
+   "ratio": "4:3",
+   "resolution": "720p",
+   "seed": 922948,
+   "width": 1088
+  },
+  "seconds": "5.0",
+  "size": "1088x832",
+  "size_mapping": {
+   "adjusted": true,
+   "height": 832,
+   "message": "Input size 1152x768 was mapped to nearest preset 720p/4:3 (1088x832)",
+   "ratio": "4:3",
+   "requested_height": 768,
+   "requested_width": 1152,
+   "resolution": "720p",
+   "width": 1088
+  },
+  "status": "completed",
+  "url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-v2.0/video_5a935f957b8c4b08af9a2347fb55b925.mp4"
+ },
+ "verdict": "OK-LANDSCAPE",
+ "verdictNote": "1088x832 剪辑垫底"
+}

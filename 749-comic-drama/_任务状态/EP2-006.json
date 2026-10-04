@@ -1,0 +1,101 @@
+{
+ "id": "EP2-006",
+ "model": "agnes-video-v2.0",
+ "lane": "v20",
+ "video_id": "video_bGl0ZWxsbTpjdXN0b21fbGxtX3Byb3ZpZGVyOm9wZW5haTttb2RlbF9pZDphZ25lcy12aWRlby12Mi4wO3ZpZGVvX2lkOnZpZGVvX2FjNmQ5N2JkOTE0NzQ5YTFhYWQ4OTBlMDg5MDgzMzA5",
+ "created_at": 1791089064607,
+ "status": "submitted",
+ "polls": [
+  {
+   "at": 1791089098135,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791089111396,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791089127134,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791089142887,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791089154005,
+   "status": "completed",
+   "progress": 100
+  }
+ ],
+ "url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-v2.0/video_ac6d97bd914749a1aad890e089083309.mp4",
+ "latest": {
+  "completed_at": 1791089151,
+  "created_at": 1791089062,
+  "error": null,
+  "expires_at": null,
+  "id": "video_ac6d97bd914749a1aad890e089083309",
+  "input_image_filename": "video_ac6d97bd914749a1aad890e089083309.png",
+  "internal_progress": 100,
+  "internal_status": "completed",
+  "object": "video",
+  "perf_download_bytes": 1609626,
+  "perf_download_s": 2.396265624091,
+  "perf_infer_s": 83.522993691266,
+  "perf_infer_t0": 13537865.448099,
+  "perf_output_size": 3594822,
+  "perf_params": {
+   "frame_rate": 24,
+   "height": 832,
+   "num_frames": 121,
+   "num_inference_steps": 8,
+   "seed": 476931,
+   "width": 1088
+  },
+  "perf_upload_s": 2.7590451985598,
+  "progress": 100,
+  "prompt_id": "c1509391-6a3a-44ce-abe2-d5c77f860807",
+  "remixed_from_video_id": null,
+  "request_params": {
+   "background_image": null,
+   "frame_rate": 24,
+   "global_prompt": "",
+   "height": 832,
+   "image": "https://platform-outputs.agnes-ai.space/images/t2i/task_rBKwISYYKEtK8NMcZhPueK0BjpNFQGfy/output_f92ca467d321420abfb4c8d5a5fba671.png",
+   "image_list": [
+    "https://platform-outputs.agnes-ai.space/images/t2i/task_rBKwISYYKEtK8NMcZhPueK0BjpNFQGfy/output_f92ca467d321420abfb4c8d5a5fba671.png"
+   ],
+   "local_prompts": "",
+   "max_length": 256,
+   "mode": "ti2vid",
+   "negative_prompt": "pc game, console game, video game, cartoon, childish, ugly, worst quality, blurry, jittery, distorted, inconsistent appearance",
+   "num_frames": 121,
+   "num_inference_steps_first_stage": null,
+   "prompt": "韩漫画风视频。@首帧 画面与首帧保持一致：塘水猛然炸开，水鬼罔象长臂如鞭抽向镜头，指爪几乎贴脸，水花泼洒，绿瞳骤亮。对白：罔象（嘶哑水声）：「还……我……」环境音：水体爆裂轰响、指甲刮风声、水花砸地。动作幅度大，保持画面与首帧一致。",
+   "ratio": "4:3",
+   "resolution": "720p",
+   "seed": 476931,
+   "width": 1088
+  },
+  "seconds": "5.0",
+  "size": "1088x832",
+  "size_mapping": {
+   "adjusted": true,
+   "height": 832,
+   "message": "Input size 1152x768 was mapped to nearest preset 720p/4:3 (1088x832)",
+   "ratio": "4:3",
+   "requested_height": 768,
+   "requested_width": 1152,
+   "resolution": "720p",
+   "width": 1088
+  },
+  "status": "completed",
+  "url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-v2.0/video_ac6d97bd914749a1aad890e089083309.mp4"
+ },
+ "verdict": "OK-LANDSCAPE",
+ "verdictNote": "1088x832 剪辑垫底"
+}

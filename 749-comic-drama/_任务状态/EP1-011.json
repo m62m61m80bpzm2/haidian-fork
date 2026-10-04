@@ -1,0 +1,106 @@
+{
+ "id": "EP1-011",
+ "model": "agnes-video-v2.0",
+ "lane": "v20",
+ "video_id": "video_bGl0ZWxsbTpjdXN0b21fbGxtX3Byb3ZpZGVyOm9wZW5haTttb2RlbF9pZDphZ25lcy12aWRlby12Mi4wO3ZpZGVvX2lkOnZpZGVvX2VjN2Q5YzY4YzhjZjQyNDg4MWU1ZjA2MDY3MWYwMjEw",
+ "created_at": 1791085503133,
+ "status": "submitted",
+ "polls": [
+  {
+   "at": 1791085503256,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791085559086,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791085581439,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791085637382,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791085653055,
+   "status": "in_progress",
+   "progress": 30
+  },
+  {
+   "at": 1791085709025,
+   "status": "completed",
+   "progress": 100
+  }
+ ],
+ "url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-v2.0/video_ec7d9c68c8cf424881e5f060671f0210.mp4",
+ "latest": {
+  "completed_at": 1791085672,
+  "created_at": 1791085499,
+  "error": null,
+  "expires_at": null,
+  "id": "video_ec7d9c68c8cf424881e5f060671f0210",
+  "input_image_filename": "video_ec7d9c68c8cf424881e5f060671f0210.png",
+  "internal_progress": 100,
+  "internal_status": "completed",
+  "object": "video",
+  "perf_download_bytes": 882661,
+  "perf_download_s": 2.7654632763006,
+  "perf_infer_s": 168.28373422893,
+  "perf_infer_t0": 2622541.5594594,
+  "perf_output_size": 2013390,
+  "perf_params": {
+   "frame_rate": 24,
+   "height": 832,
+   "num_frames": 121,
+   "num_inference_steps": 8,
+   "seed": 782745,
+   "width": 1088
+  },
+  "perf_upload_s": 2.5442186030559,
+  "progress": 100,
+  "prompt_id": "99535197-6b07-4120-9a8d-ddb433716a74",
+  "remixed_from_video_id": null,
+  "request_params": {
+   "background_image": null,
+   "frame_rate": 24,
+   "global_prompt": "",
+   "height": 832,
+   "image": "https://platform-outputs.agnes-ai.space/images/t2i/task_LCfJWZDHz0l0sBsF75k4yzvgYuvgOGVY/output_b14cfec8d1e84824802864a07e2e06b2.png",
+   "image_list": [
+    "https://platform-outputs.agnes-ai.space/images/t2i/task_LCfJWZDHz0l0sBsF75k4yzvgYuvgOGVY/output_b14cfec8d1e84824802864a07e2e06b2.png"
+   ],
+   "local_prompts": "",
+   "max_length": 256,
+   "mode": "ti2vid",
+   "negative_prompt": "pc game, console game, video game, cartoon, childish, ugly, worst quality, blurry, jittery, distorted, inconsistent appearance",
+   "num_frames": 121,
+   "num_inference_steps_first_stage": null,
+   "prompt": "韩漫画风视频。@首帧 画面与首帧保持一致：少年陆鼎咬牙抡起电钻砸向悬浮血石，电钻钻头与石面相撞爆出金色火星，冲击波将他长发吹起。对白：陆鼎：「管你是什么——从我工地上，滚出去！」环境音：金属与石撞闷响、爆裂声、夜风。动作幅度大，保持画面与首帧一致。",
+   "ratio": "4:3",
+   "resolution": "720p",
+   "seed": 782745,
+   "width": 1088
+  },
+  "seconds": "5.0",
+  "size": "1088x832",
+  "size_mapping": {
+   "adjusted": true,
+   "height": 832,
+   "message": "Input size 1152x768 was mapped to nearest preset 720p/4:3 (1088x832)",
+   "ratio": "4:3",
+   "requested_height": 768,
+   "requested_width": 1152,
+   "resolution": "720p",
+   "width": 1088
+  },
+  "status": "completed",
+  "url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-v2.0/video_ec7d9c68c8cf424881e5f060671f0210.mp4"
+ },
+ "verdict": "OK-LANDSCAPE",
+ "verdictNote": "1088x832 剪辑垫底"
+}
