@@ -1,6 +1,9 @@
-// P0-a: empty mc-server entry — spdlog banner + asio async accept loop.
-// Accepts TCP connections, logs the peer address, closes immediately.
-// Protocol handling (handshake/status/login) lands in P1 (plan §4).
+// P1-b: mc-server entry — spdlog banner + asio async accept loop feeding the
+// protocol state machine (handshake -> status/login -> configuration -> PLAY
+// boundary). Each accepted connection is handed to
+// mc::server::network::Server::handle_connection, which serves it on a
+// dedicated thread until the client disconnects or the PLAY boundary is
+// reached (play protocol lands in a later phase).
 #include <asio.hpp>
 #include <spdlog/spdlog.h>
 
@@ -10,6 +13,7 @@
 #include <string>
 #include <system_error>
 
+#include "mc/server/network/Server.hpp"
 #include "mc/util/Mth.hpp"
 
 namespace {
@@ -18,12 +22,12 @@ using asio::ip::tcp;
 
 constexpr unsigned short kDefaultPort = 25565;
 
-// Accept loop: for each accepted connection log the peer and drop it (P0).
-// Re-arms itself until the acceptor is aborted (io_context stop / shutdown).
+// Accept loop: for each accepted connection hand the socket to the Server
+// (P1-b: the protocol handlers own the connection from here on).
 class AcceptLoop {
 public:
-    AcceptLoop(asio::io_context& io, unsigned short port)
-        : acceptor_(io, tcp::endpoint(tcp::v4(), port)) {}
+    AcceptLoop(asio::io_context& io, unsigned short port, mc::server::network::Server& server)
+        : acceptor_(io, tcp::endpoint(tcp::v4(), port)), server_(server) {}
 
     void start() { doAccept(); }
 
@@ -40,13 +44,12 @@ private:
                     std::error_code ep_ec;
                     const tcp::endpoint ep = socket_->remote_endpoint(ep_ec);
                     if (!ep_ec) {
-                        spdlog::info("accepted connection from {}:{} (closing; protocol handling lands in P1)",
+                        spdlog::info("accepted connection from {}:{}",
                                      ep.address().to_string(), ep.port());
                     } else {
                         spdlog::info("accepted connection (peer endpoint unavailable: {})", ep_ec.message());
                     }
-                    std::error_code close_ec;
-                    socket_->close(close_ec);  // P0: accept-and-drop
+                    server_.handle_connection(std::move(*socket_));
                 } else {
                     spdlog::warn("accept failed: {}", ec.message());
                 }
@@ -55,6 +58,7 @@ private:
     }
 
     tcp::acceptor acceptor_;
+    mc::server::network::Server& server_;
     std::optional<tcp::socket> socket_;
 };
 
@@ -82,6 +86,8 @@ int main(int argc, char* argv[]) {
 
     asio::io_context io;
 
+    mc::server::network::Server server(mc::server::network::ServerConfig{});
+
     // Graceful shutdown: SIGINT/SIGTERM -> io_context.stop() (via asio, not a
     // raw signal handler — must not race the io_context event loop).
     asio::signal_set signals(io, SIGINT, SIGTERM);
@@ -93,10 +99,10 @@ int main(int argc, char* argv[]) {
 
     try {
         // acceptor must outlive io.run() — keep it scoped to this block.
-        AcceptLoop acceptor(io, port);  // binds 0.0.0.0:port
+        AcceptLoop acceptor(io, port, server);  // binds 0.0.0.0:port
         acceptor.start();
 
-        spdlog::info("mc-cpp server 0.0.1 / MC 26.2 protocol 776 / P0 skeleton");
+        spdlog::info("mc-cpp server 0.0.1 / MC 26.2 protocol 776 / P1-b protocol state machine");
         spdlog::info("listening on 0.0.0.0:{}", port);
         io.run();
     } catch (const asio::system_error& e) {
@@ -104,6 +110,8 @@ int main(int argc, char* argv[]) {
         return 1;
     }
 
+    // io_context drained: break any blocking connection reads, then join.
+    server.shutdown();
     spdlog::info("io_context drained, bye");
     return 0;
 }
