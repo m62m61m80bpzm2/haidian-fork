@@ -31,5 +31,5 @@ find_package(Threads REQUIRED)
 
 add_subdirectory(src)
 
-# P0-b: 抓包代理 tools/capture-proxy（独立可执行，另一个代理负责，届时取消注释）
-# add_subdirectory(tools/capture-proxy)
+# P0-b: 抓包代理 tools/capture-proxy（独立可执行）
+add_subdirectory(tools/capture-proxy)
