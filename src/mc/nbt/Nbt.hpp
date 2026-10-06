@@ -2,11 +2,16 @@
 // Java source dir: net/minecraft/nbt/
 //   (/home/z/my-project/mcsrc/net/minecraft/nbt/)
 //
-// P1 (plan P1-a) will place here: full 13-tag set + NbtIo/TagTypes-aligned
-// readers/writers. Note: since 1.20.5+ the network NBT format is the
-// VarInt-length-prefixed modified format — follow net/minecraft/nbt/NbtIo.java
-// and the network/codec/ stream codecs, not the classic root-tag framing.
+// Implemented in P1-a — see Tag.hpp (13-tag set + NbtAccounter) and
+// NbtIo.hpp (disk named-root + network nameless-root framings).
+// Wire-format note, verified against the 26.2 sources (NbtIo.writeAnyTag/
+// readAnyTag via FriendlyByteBuf.writeNbt/readNbt + ByteBufOutputStream):
+// NBT strings are java DataOutput.writeUTF (u16 length + modified UTF-8) on
+// BOTH disk and network; the network change is root framing only (single
+// type byte, no root name, TAG_END == null). Packet-level strings outside
+// NBT use VarInt prefixes — mc::network::ByteBuffer::read_utf.
 
 namespace mc::nbt {
-// P1 placeholder — intentionally empty for P0-a.
+// P0-a placeholder header — kept (rather than deleted) so existing includes
+// keep compiling; the real API lives in Tag.hpp / NbtIo.hpp.
 }  // namespace mc::nbt

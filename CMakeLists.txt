@@ -33,3 +33,6 @@ add_subdirectory(src)
 
 # P0-b: 抓包代理 tools/capture-proxy（独立可执行）
 add_subdirectory(tools/capture-proxy)
+
+# P1-a: 单元测试 mc-tests（纯 assert 风格 main，无第三方库）
+add_subdirectory(tests)
